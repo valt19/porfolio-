@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.body {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.header {
+  height: 38px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-left: 6%;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 28px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #28352f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-bar {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  float: right;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  line-height: 28px;
+}
+
+.head-section {
+  background-image: url('images/background-image/backround-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: inherit;
+  width: 98%;
+}
+
+.hey-there {
+  width: 156px;
+  height: 150.38px;
+}
+
+.hey-text {
+  width: 327px;
+  height: 192px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 35%;
+  margin-left: 15%;
+}
+
+.hey-text2 {
+  color: #36b37e;
+}
+
+.text {
+  width: 327px;
+  height: 164px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 380;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 25%;
+  margin-left: 10%;
+}
+
+.icons {
+  padding: 2px;
+  margin: 0;
+  justify-content: space-between;
+  display: flex;
+  width: 40%;
+  margin-top: 15%;
+  margin-left: 30%;
+}
+
+.icon {
+  justify-content: space-between;
+}
+
+.medium {
+  width: 20px;
+  height: 16px;
+  top: 538px;
+  left: 181.42px;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px / 2 + 0.5px);
+  bottom: 4px;
+  background: #fff;
+  border-radius: 32px;
+  margin-top: 10%;
+  margin-left: 43%;
+}
