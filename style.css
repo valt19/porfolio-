@@ -137,3 +137,385 @@
   margin-top: 10%;
   margin-left: 43%;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.recent-works {
+  grid-column: 3/11;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-bottom: 4px  solid #36b37e;
+  width: 10%;
+  margin-left: 45%;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.hey-tex {
+  width: 327px;
+  height: 97px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.project-section-1 {
+  grid-column: 4;
+  border: 1px solid #d0d9d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 474px;
+  border-radius: 8px;
+  margin-top: 64px;
+  margin-left: 10px;
+}
+
+.card {
+  width: 327px;
+  height: 100vh;
+  background: #ebf0ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.title-1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.list .ruby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 103px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  margin-right: 7px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.list .css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  margin-right: 7px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.list .javascript {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  margin-right: 7px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.list .html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  background: #36b37f;
+  border: 0;
+  margin-left: 110px;
+  margin-right: 105px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  color: white;
+  transition: all 0.3s;
+  font-size: 18px;
+}
+
+.about-me {
+  background-image: url('images/about-me/background/illustration\ 2-about\ me\ mobile.svg'), url('images/about-me/background/illustration\ 1-\ about\ me-mobile.svg');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 70px, 70px;
+  background-position: left 380px, top right;
+}
+
+.about-text {
+  padding: 70px 50px 0 50px;
+  grid-column: 1/13;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.par {
+  grid-column: 1/13;
+  height: 189px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.par2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #42526e;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.resume {
+  margin-left: 123px;
+  grid-column: 1/13;
+}
+
+.sections {
+  grid-column: 1/13;
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 352px;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  margin-right: 35px;
+  margin-left: 30px;
+  margin-bottom: 8%;
+  margin-top: 60px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.language-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.language-icon img {
+  height: 100px;
+  width: 100px;
+}
+
+.frameworks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #36b37e;
+  padding-left: 0;
+}
+
+.javascript-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 89px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.ruby-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.html-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.css-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.bootstrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 84px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.ruby-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 103px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.rspec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 63px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.capybara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 83px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.selenium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 81px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.codekit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.github-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 67px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  margin-right: 0;
+}
+
+.codepen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 79px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.gitlab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.terminal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 77px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+}
