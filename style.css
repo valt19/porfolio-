@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-.body {
-  width: 100%;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +7,6 @@
 }
 
 .header {
-  height: 38px;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -23,7 +18,6 @@
   justify-content: space-between;
   align-items: center;
   width: 90px;
-  height: 28px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -38,7 +32,6 @@
 
 .menu-bar {
   width: 24px;
-  height: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -53,19 +46,24 @@
 .head-section {
   background-image: url('images/background-image/backround-image.png');
   background-repeat: no-repeat;
-  background-size: cover;
-  position: inherit;
-  width: 98%;
+  background-size: 100%;
+  position: relative;
+  height: auto;
+  width: 100%;
 }
 
 .hey-there {
-  width: 156px;
-  height: 150.38px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  padding-top: 90px;
 }
 
 .hey-text {
-  width: 327px;
-  height: 192px;
+  width: 100%;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -76,8 +74,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 35%;
-  margin-left: 15%;
+  margin-left: 18%;
 }
 
 .hey-text2 {
@@ -85,8 +82,7 @@
 }
 
 .text {
-  width: 327px;
-  height: 164px;
+  width: 80%;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 380;
@@ -97,8 +93,8 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin-top: 25%;
-  margin-left: 10%;
+  margin-top: 10%;
+  margin-left: 12%;
 }
 
 .icons {
@@ -148,12 +144,13 @@
   height: 80%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  text-align: center;
   border-bottom: 4px  solid #36b37e;
-  width: 10%;
+  width: 13%;
   margin-left: 45%;
-  margin-top: 5%;
-  padding-bottom: 5%;
+  margin-top: 3%;
+  padding-bottom: 8%;
 }
 
 .hey-tex {
@@ -165,6 +162,7 @@
   font-size: 40px;
   line-height: 52px;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: #172b4d;
@@ -184,7 +182,7 @@
   height: 474px;
   border-radius: 8px;
   margin-top: 64px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .card {
@@ -289,7 +287,7 @@
 }
 
 .about-me {
-  background-image: url('images/about-me/background/illustration\ 2-about\ me\ mobile.svg'), url('images/about-me/background/illustration\ 1-\ about\ me-mobile.svg');
+  background-image: url('images/about-me/background/illustration\ 2-about-me\ mobile.svg'), url('images/about-me/background/illustration\ 1-\ about\ me-mobile.svg');
   background-repeat: no-repeat, no-repeat;
   background-size: 70px, 70px;
   background-position: left 380px, top right;
@@ -313,7 +311,9 @@
 
 .par2 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 380;
+  text-align: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   line-height: 32px;
   color: #42526e;
   flex: none;
