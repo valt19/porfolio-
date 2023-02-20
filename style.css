@@ -419,6 +419,7 @@ h4 {
 }
 
 .frameworks {
+  float: right;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
