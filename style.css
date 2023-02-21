@@ -330,7 +330,7 @@ body {
   background-image: url('images/about-me/background/illustration\ 2-about-me\ mobile.svg'), url('images/about-me/background/illustration\ 1-\ about\ me-mobile.svg');
   background-repeat: no-repeat, no-repeat;
   background-size: 70px, 70px;
-  background-position: left 400px, top right 0px;
+  background-position: left 400px, top right 0;
   display: grid;
   grid-template-columns: 327px;
   grid-template-rows: repeat(5, 474px);
@@ -338,7 +338,7 @@ body {
   justify-content: center;
   padding-top: 32px;
   margin-top: 900px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .about-text {
@@ -580,7 +580,7 @@ h4 {
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: right bottom;
-  padding: 0px;
+  padding: 0;
   margin-top: -850px;
 }
 
@@ -621,7 +621,7 @@ h4 {
   margin-left: 15px;
 }
 
-.msg{
+.msg {
   width: 327px;
   height: 114px;
   font-weight: 500;
@@ -643,7 +643,8 @@ h4 {
   color: #42526e;
   margin-bottom: 100px;
 }
-.form-bttn{
+
+.form-bttn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -654,10 +655,9 @@ h4 {
   border: 0;
   margin-left: 110px;
   margin-right: 105px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   color: white;
   transition: all 0.3s;
   font-size: 18px;
-
 }
