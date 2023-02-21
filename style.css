@@ -330,14 +330,15 @@ body {
   background-image: url('images/about-me/background/illustration\ 2-about-me\ mobile.svg'), url('images/about-me/background/illustration\ 1-\ about\ me-mobile.svg');
   background-repeat: no-repeat, no-repeat;
   background-size: 70px, 70px;
-  background-position: left 380px, top right;
+  background-position: left 400px, top right 0px;
   display: grid;
   grid-template-columns: 327px;
   grid-template-rows: repeat(5, 474px);
   row-gap: 24px;
   justify-content: center;
   padding-top: 32px;
-  margin-top: 1000px;
+  margin-top: 900px;
+  margin-bottom: 0px;
 }
 
 .about-text {
@@ -390,6 +391,8 @@ body {
 }
 
 h4 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
@@ -424,6 +427,8 @@ h4 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
   color: #36b37e;
   padding-left: 0;
 }
@@ -568,4 +573,89 @@ h4 {
   height: 40px;
   background: #fff;
   border-radius: 8px;
+}
+
+.form {
+  background-image: url('./images/form/illustration-contact-form.svg');
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: right bottom;
+  padding: 0px;
+  margin-top: -850px;
+}
+
+.form-text {
+  grid-column: 1/13;
+  display: flex;
+  justify-content: center;
+  margin-left: 11px;
+  margin-bottom: 10px;
+}
+
+.form-text h3 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.inputs {
+  grid-column: 1/13;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 327px;
+  height: 40px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  background: #fff;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.msg{
+  width: 327px;
+  height: 114px;
+  font-weight: 500;
+  border: 1px solid#60C095;
+  border-radius: 4px;
+  background: #fff;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.email-address {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-bottom: 100px;
+}
+.form-bttn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  width: 122px;
+  height: 48px;
+  background: #36b37f;
+  border: 0;
+  margin-left: 110px;
+  margin-right: 105px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  transition: all 0.3s;
+  font-size: 18px;
+
 }
