@@ -326,6 +326,14 @@ body {
   font-size: 18px;
 }
 
+.button:hover {
+  background-color: #4cbe8f;
+}
+
+.button:active {
+  background-color: #017243;
+}
+
 .about-me {
   background-image: url('images/about-me/background/illustration\ 2-about-me\ mobile.svg'), url('images/about-me/background/illustration\ 1-\ about\ me-mobile.svg');
   background-repeat: no-repeat, no-repeat;
@@ -673,8 +681,15 @@ h4 {
   background: #dfe1e6;
 }
 
+.form-bttn:enabled {
+  background-color: #36b37f;
+}
+
 .form-bttn:hover {
   border: 1px solid rgb(2, 155, 35);
-  color: #6588e2;
-  background-color: #c1c7d0;
+  background-color: #44b988;
+}
+
+.form-bttn:active {
+  background-color: #017243;
 }
