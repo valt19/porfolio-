@@ -662,3 +662,18 @@ h4 {
   transition: all 0.3s;
   font-size: 18px;
 }
+.input:hover {
+  transition: all 0.3s;
+  background: #b7c3e2;
+}
+
+.msg:hover {
+  transition: all 0.3s;
+  background: #dfe1e6;
+}
+
+.form-bttn:hover {
+  border: 1px solid rgb(2, 155, 35);
+  color: #6588e2;
+  background-color: #c1c7d0;
+}
