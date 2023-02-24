@@ -122,6 +122,11 @@ body {
   justify-content: space-between;
 }
 
+.icon img:hover {
+  transform: scale(0.7);
+  transition: all 1s ease 0.3s;
+}
+
 .medium {
   width: 20px;
   height: 16px;
