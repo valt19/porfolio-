@@ -709,7 +709,7 @@ h4 {
   background-color: #017243;
 }
 
-@media screen and (min-width: 930px) {
+@media screen and (min-width: 768px) {
   .body {
     width: 100%;
   }
@@ -737,15 +737,23 @@ h4 {
     align-items: center;
     justify-content: center;
     gap: 8px;
+    list-style: none;
+  }
+
+  .nav-menu a {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     list-style: none;
     font-weight: 600;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;
+    color: #131212;
     padding: 10px 12px;
     text-decoration: none;
+  }
+
+  .links {
+    color: #0c0c0c;
   }
 
   .hey-there {
