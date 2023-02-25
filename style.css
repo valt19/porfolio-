@@ -890,7 +890,7 @@ h4 {
     background: #fff;
     padding: 0;
     margin-bottom: 30px;
-    margin-left: 14px;
+    margin-left: 15px;
   }
 
   .email-address {
@@ -898,7 +898,7 @@ h4 {
     font-style: normal;
     font-size: 20px;
     font-weight: 300;
-    line-height: 31px;
+    line-height: 32px;
     text-align: center;
     color: #42526e;
     margin-bottom: 100px;
@@ -909,7 +909,7 @@ h4 {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    width: 121px;
+    width: 122px;
     height: 48px;
     background: #36b37f;
     border: 0;
