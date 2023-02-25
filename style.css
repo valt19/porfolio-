@@ -107,6 +107,17 @@ body {
   margin-left: 12%;
 }
 
+.iconns {
+  list-style: none;
+  padding: 2px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-top: 15%;
+  margin-left: 30%;
+}
+
 .icons {
   list-style: none;
   padding: 2px;
@@ -698,11 +709,15 @@ h4 {
   background-color: #017243;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 930px) {
+  .body {
+    width: 100%;
+  }
+
   .head-section {
     background-image: url('images/background-image/desktop/Header-llustration-desktop@2x.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain 100%;
   }
 
   .header {
@@ -718,13 +733,19 @@ h4 {
   }
 
   .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    color: #0d0d0e;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    padding: 10px 12px;
+    text-decoration: none;
   }
 
   .hey-there {
@@ -743,7 +764,7 @@ h4 {
   }
 
   .text {
-    width: 80%;
+    width: 70%;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -759,6 +780,12 @@ h4 {
 
   .icon {
     justify-content: space-between;
+  }
+
+  .scroll {
+    width: 40px;
+    margin-bottom: 195px;
+    margin-top: 295px;
   }
 
   .green {
@@ -819,13 +846,13 @@ h4 {
   }
 
   .project-cards {
-    width: 80%;
+    width: 93%;
     height: auto;
     margin: 12px auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 140px;
+    padding-left: 70px;
     padding-right: 140px;
   }
 
@@ -854,6 +881,10 @@ h4 {
     margin-left: -20%;
   }
 
+  .form-text {
+    grid-column: 4;
+  }
+
   .form-text h3 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -863,13 +894,13 @@ h4 {
     text-align: center;
     margin-bottom: 34px;
     color: #172b4d;
-    width: 100%;
+    width: 90%;
     margin-left: 50%;
     margin-top: 5%;
   }
 
   .input {
-    width: 386.58px;
+    width: 500.58px;
     height: 40px;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
@@ -880,8 +911,8 @@ h4 {
   }
 
   .msg {
-    width: 386.58px;
-    height: 115px;
+    width: 500.58px;
+    height: 100px;
     font-weight: 500;
     border: 1px solid#60C095;
     border-radius: 4px;
@@ -941,5 +972,17 @@ h4 {
     width: 10%;
     margin-top: 20%;
     margin-left: 45%;
+  }
+
+  .iconns {
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-bottom: 10%;
   }
 }
