@@ -413,7 +413,7 @@ body {
   margin-bottom: 20px;
 }
 
-h4 {
+h3 {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 24px;
@@ -615,7 +615,7 @@ h4 {
   margin-bottom: 10px;
 }
 
-.form-text h3 {
+.form-text h4 {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 40px;
@@ -893,7 +893,7 @@ h4 {
     grid-column: 4;
   }
 
-  .form-text h3 {
+  .form-text h4 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 40px;
