@@ -790,6 +790,7 @@ h3 {
     justify-content: space-between;
   }
 
+
   .scroll {
     width: 40px;
     margin-bottom: 195px;
@@ -881,6 +882,14 @@ h3 {
     border-radius: 8px;
     margin-left: 25px;
     margin-bottom: 20px;
+  }
+
+  .language-icon {
+    transition: all 0.5s ease-out;
+  }
+
+  .language-icon:hover {
+    transform: scale(1.04);
   }
 
   .info {
@@ -980,6 +989,11 @@ h3 {
     width: 10%;
     margin-top: 20%;
     margin-left: 45%;
+    transition: all 0.5s ease-out;
+  }
+
+  .icons:hover {
+    transform: scale(1.04);
   }
 
   .iconns {
@@ -992,5 +1006,10 @@ h3 {
     margin-top: 5%;
     margin-left: 45%;
     margin-bottom: 10%;
+    transition: all 0.5s ease-out;
+  }
+
+  .iconns:hover {
+    transform: scale(1.04);
   }
 }
