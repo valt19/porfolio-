@@ -104,7 +104,7 @@ To run tests, run the following command: program.exe
 
 ### Deployment
 
-You can deploy this project using: Google Chrome
+https://valt19.github.io/porfolio-/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
