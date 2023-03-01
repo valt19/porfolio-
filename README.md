@@ -1,11 +1,38 @@
 <a name="readme-top"></a>
 
-<div align ="center">
-  <h3><b>PORTFOLIO</b></h3>
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
+  <h3><b>Hello</b></h3>
 
 </div>
 
-
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -26,54 +53,55 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio-project] <a name="Portfolio-project"></a>
-https://valt19.github.io/porfolio-/
+<!-- PROJECT DESCRIPTION -->
 
-Portfolio Project is mandatory to every student at Microverse, and it is one of the product that helps a student to job market. It has the followinf files: a README file, html, css, gitignore, linters
+# 📖 portfolio<a name="portfolio"></a>
 
-**[Portfolio-project]** is a...
+> This is my second microverse project under this program.
+
+**portfolio** is a project where i test my web programming skills.
 
 ## 🛠 Built With <a name="built-with"></a>
-**Tech stack**
-**client:**
-  HTML and CSS
+
+>VScode
+
 ### Tech Stack <a name="tech-stack"></a>
+
+> This is a mobile project.
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://html.org/">index.html</a>HTML</li>
+  </ul>
+
+  <ul>
+    <li><a href="https://css.org/">style.css</a>CSS</li>
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[user_friendy]**
-- **[fast]**
+> The key features are:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **create responsive mobile and desktop portfolio**
+- **Visualize the figma design**
+- **implement linters and workflows**
+
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]
-(https://valt19.github.io/porfolio-/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -83,40 +111,49 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-gem install rails
-
 ### Setup
 
-Clone this repository to your desired folder and run it using a browser. Usage To run this project you need a code editor and browser
-### Install
+Clone this repository to your desired folder:
 
-Install this project with: program.exe file
-
-
+```sh
+  cd my-folder
+  git clone 
+```
 
 ### Usage
 
-To run the project, execute the following command: program.exe file
+To run the project, execute the following command:
 
-
+```sh
+  vscode server
+```
 
 ### Run tests
 
-To run tests, run the following command: program.exe
+To run tests, run the following command:
+
+Example command:
+
+```sh
+configure linter.yml file
+open on your browser
+```
 
 ### Deployment
 
-https://valt19.github.io/porfolio-/
+You can deploy this project using:
+
+Example:
+
+```sh
+github pages
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
-Trevor:
-- GitHub: @valt19
-- Twitter: @OdekeTrevor
-- LinkedIn: @TrevorOdeke
-
+## 👥 Authors <a name="authors"></a>
 
 👤 **Mercy Mugambi**
 
@@ -124,50 +161,62 @@ Trevor:
 - Twitter: @mercymugambi(https://twitter.com/MercyMugambi15)
 - LinkedIn: @mercymugambi(https://www.linkedin.com/in/mercymugambi/)
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+> Below are future features to be added.
 
-- [ ] **[client-login]**
-**[search-box]**
-**[Background-videos]**
-
+- **more content**
+- **link projects**
+- **Add JavaScript Functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-feel free to add any concerns you have with the project
-Feel free to check the [issues page](../../issues/).
+Contributions, issues, and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project please follow my github account : @valt19
+If you like this project, follow me on my social handles and contact me back.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank Agaba JohnMark for helping finish this project
+I would like to thank microverse community, my coding partners(mercy and Rose mutai) for their dedicated time to encourage me achieve the best for this project. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- **Question_1: Have you implemented linters to this project?**
+
+  - yes
+
+- **Question_2: Does plan to use other languages?**
+
+  - Answer_2: Yes, planning to implement using javascript among other.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
 
-## 📝 License <a name="MIT"> MIT</a>
+## 📝 License <a name="license"></a>
 
+This project is [MIT](./LICENSE) licensed.
 
-This project is [ MIT ]( ./MIT.md ) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
