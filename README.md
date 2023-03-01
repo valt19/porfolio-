@@ -116,6 +116,13 @@ Trevor:
 - LinkedIn: @TrevorOdeke
 
 
+👤 **Mercy Mugambi**
+
+- GitHub: @mercymugambi(https://github.com/mercymugambi)
+- Twitter: @mercymugambi(https://twitter.com/MercyMugambi15)
+- LinkedIn: @mercymugambi(https://www.linkedin.com/in/mercymugambi/)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
