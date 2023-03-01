@@ -1,38 +1,12 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
-  <h3><b>Hello</b></h3>
+
+  <h3><b>Portfolio</b></h3>
 
 </div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -56,7 +30,6 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 portfolio<a name="portfolio"></a>
 
@@ -97,7 +70,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://valt19.github.io/porfolio-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,19 +114,19 @@ open on your browser
 
 ### Deployment
 
-You can deploy this project using:
-
-Example:
-
-```sh
-github pages
-```
+https://valt19.github.io/porfolio-/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
+
+👤 **Trevor**
+- GitHub: @valt19
+- Twitter: @OdekeTrevor
+- LinkedIn: @TrevorOdeke
 
 👤 **Mercy Mugambi**
 
@@ -181,6 +154,9 @@ github pages
 
 Contributions, issues, and feature requests are welcome!
 
+feel free to add any concerns you have with the project
+Feel free to check the [issues page](../../issues/).
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
@@ -188,7 +164,7 @@ Contributions, issues, and feature requests are welcome!
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, follow me on my social handles and contact me back.
-
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -217,6 +193,6 @@ I would like to thank microverse community, my coding partners(mercy and Rose mu
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
