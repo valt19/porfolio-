@@ -29,6 +29,7 @@
 - [📝 License](#license)
 
 # 📖 [Portfolio-project] <a name="Portfolio-project"></a>
+https://valt19.github.io/porfolio-/
 
 Portfolio Project is mandatory to every student at Microverse, and it is one of the product that helps a student to job market. It has the followinf files: a README file, html, css, gitignore, linters
 
@@ -69,7 +70,8 @@ Portfolio Project is mandatory to every student at Microverse, and it is one of 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link]
+(https://valt19.github.io/porfolio-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
