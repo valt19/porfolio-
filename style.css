@@ -35,22 +35,68 @@ body {
   margin-left: 15px;
 }
 
-.nav-menu {
-  display: none;
+.hamburger {
+  display: block;
+  cursor: pointer;
 }
 
-.menu-bar {
-  width: 24px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #131212;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-menu {
+  position: fixed;
+  left: -100%;
+  top: 7px;
+  gap: 10px;
+  flex-direction: column;
+  background-color: #ffff;
+  width: 100%;
   text-align: center;
-  float: right;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  line-height: 28px;
-  margin-right: 15px;
+  transition: 0.3s;
+  list-style: none;
+}
+
+.nav-menu.active {
+  left: 0;
+}
+
+.nav-menu a {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  list-style: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #131212;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  color: #60c095;
+}
+
+.links {
+  color: #0c0c0c;
 }
 
 .head-section {
@@ -717,43 +763,45 @@ h3 {
   .head-section {
     background-image: url('images/background-image/desktop/Header-llustration-desktop@2x.png');
     background-repeat: no-repeat;
-    background-size: contain 100%;
+    background-size: 100%;
   }
 
   .header {
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .head {
     display: none;
   }
 
-  .menu-bar {
+  .hamburger {
     display: none;
   }
 
   .nav-menu {
     display: flex;
-    align-items: center;
+    position: fixed;
     justify-content: center;
+    align-items: center;
     gap: 8px;
     list-style: none;
+    left: 30px;
+    top: -1px;
+    flex-direction: row;
+    background-color: #ffff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
   }
 
-  .nav-menu a {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    list-style: none;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 20px;
-    color: #131212;
-    padding: 10px 12px;
-    text-decoration: none;
+  .nav-menu.active {
+    left: 0;
   }
 
-  .links {
-    color: #0c0c0c;
+  .nav-menu a:hover {
+    color: #60c095;
   }
 
   .hey-there {
