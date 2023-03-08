@@ -61,18 +61,38 @@ body {
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+.close-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -60px;
+  padding: 0px;
+  color: #67798E;
+}
 
 .nav-menu {
-  position: fixed;
+  position: absolute;
   left: -100%;
-  top: 7px;
+  height: 755px;
+  width: 375px;
+  top: 0px;
   gap: 10px;
+  padding-top: 60px;
   flex-direction: column;
-  background-color: #ffff;
+  background-color: #fff;
   width: 100%;
   text-align: center;
   transition: 0.3s;
+  border-radius: 0 0 20px 20px;
+  mix-blend-mode: normal;
+  z-index: 1;
   list-style: none;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3A4A42;
+
 }
 
 .nav-menu.active {
@@ -795,7 +815,6 @@ h3 {
     text-align: center;
     transition: 0.3s;
   }
-
   .nav-menu.active {
     left: 0;
   }
