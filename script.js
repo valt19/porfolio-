@@ -221,3 +221,34 @@ openerButton6.addEventListener('click', () => {
     sectioncard6.removeChild(main);
   });
 });
+const contactForm = document.getElementById('form-id');
+const contactEmail = document.getElementById('email');
+const contactError = document.getElementById('errormessage');
+
+contactForm.addEventListener('submit', (event) => {
+  if (contactEmail.value.toLowerCase() !== contactEmail.value) {
+    event.preventDefault();
+    contactError.innerText = 'please type your email in lowercase.form not submitted';
+  }
+});
+
+const formName = document.getElementById('name');
+const formMessage = document.getElementById('message');
+
+contactForm.addEventListener('input', () => {
+  const formData = {
+    name: formName.value,
+    email: contactEmail.value,
+    message: formMessage.value,
+  };
+  localStorage.setItem('contactForm', JSON.stringify(formData));
+});
+function showData() {
+  const userData = JSON.parse(localStorage.getItem('contactForm'));
+  if (userData) {
+    formName.value = userData.name;
+    contactEmail.value = userData.email;
+    formMessage.value = userData.message;
+  }
+}
+showData();

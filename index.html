@@ -236,12 +236,12 @@
       <div class="info">
 
        <div class="form-text"><h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3></div>
-       <form action="https://formspree.io/f/xeqwozwl" method="post" >
+       <form id="form-id" action="https://formspree.io/f/xeqwozwl" method="post" >
        
          <input id="name" type="text" class="input"  name="user_name" placeholder="Full name" required maxlength="30">
 
          <input id="email" type="email" class="input" name="user_email" placeholder="Email address" required>
-
+         <div id="errormessage"></div>
          <textarea id="message" class="msg" name="user_message" placeholder="Enter text here" required maxlength="500"></textarea>
 
          <button type="submit" class="form-bttn" id="btnid">Get In Touch</button>

@@ -721,6 +721,21 @@ h3 {
   margin-left: 15px;
 }
 
+#form-id #errormessage {
+  position: absolute;
+  color: red;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 28px;
+  height: 28px;
+  width: 330px;
+  margin-top: -34px;
+  margin-right: 0;
+  margin-left: 16px;
+}
+
 .msg {
   width: 327px;
   height: 114px;
@@ -859,7 +874,7 @@ h3 {
     display: flex;
     justify-content: center;
     width: 1440px;
-    height: 1300px;
+    height: 1200px;
     left: 0;
     top: 900px;
     background: #9da0a5;
