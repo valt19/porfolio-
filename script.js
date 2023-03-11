@@ -229,6 +229,6 @@ const contactError = document.getElementById('errormessage');
 contactForm.addEventListener('submit', (event) => {
   if (contactEmail.value.toLowerCase() !== contactEmail.value) {
     event.preventDefault();
-    contactError.innerText = 'please type your email in lowercase. form not submitted';
+    contactError.innerText = 'please type your email in lowercase.form not submitted';
   }
 });
