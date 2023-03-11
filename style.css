@@ -1059,7 +1059,7 @@ h3 {
     order: 3;
     flex-grow: 0;
   }
-  
+
   /* popup desktop */
   .hey-there {
     width: 80%;
@@ -1105,15 +1105,6 @@ h3 {
     display: none;
   }
 
-  /* .grid {
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-  }
-  .hey-text {
-    width: 100%;
-    height: 0px;
-  } */
   .all-works {
     margin-top: 200px;
   }
