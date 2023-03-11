@@ -48,7 +48,7 @@ openerButton2.addEventListener('click', () => {
   const main = document.createElement('div');
   main.className = 'main';
   const maincard = document.createElement('div');
-  maincard.className = 'maincard2';
+  maincard.className = 'maincard';
   maincard.innerHTML = `
   <button class="close-button2">&times;</button>
   <div>
@@ -84,7 +84,7 @@ openerButton3.addEventListener('click', () => {
   const main = document.createElement('div');
   main.className = 'main';
   const maincard = document.createElement('div');
-  maincard.className = 'maincard3';
+  maincard.className = 'maincard';
   maincard.innerHTML = `
   <button class="close-button2">&times;</button>
   <div>
@@ -120,7 +120,7 @@ openerButton4.addEventListener('click', () => {
   const main = document.createElement('div');
   main.className = 'main';
   const maincard = document.createElement('div');
-  maincard.className = 'maincard4';
+  maincard.className = 'maincard';
   maincard.innerHTML = `
   <button class="close-button2">&times;</button>
   <div>
@@ -156,7 +156,7 @@ openerButton5.addEventListener('click', () => {
   const main = document.createElement('div');
   main.className = 'main';
   const maincard = document.createElement('div');
-  maincard.className = 'maincard5';
+  maincard.className = 'maincard';
   maincard.innerHTML = `
   <button class="close-button2">&times;</button>
   <div>
@@ -192,7 +192,7 @@ openerButton6.addEventListener('click', () => {
   const main = document.createElement('div');
   main.className = 'main';
   const maincard = document.createElement('div');
-  maincard.className = 'maincard6';
+  maincard.className = 'maincard';
   maincard.innerHTML = `
   <button class="close-button2">&times;</button>
   <div>
