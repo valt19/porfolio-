@@ -876,27 +876,28 @@ h3 {
     width: 1440px;
     height: 1300px;
     left: 0;
-    top: 1000px;
+    top: 900px;
     background: #9da0a5;
     mix-blend-mode: multiply;
     margin-left: 5%;
   }
 
   .maincard {
-    grid-column: 8;
-    display: flex;
+    position: fixed;
+    /* grid-column: 8; */
+    /* display: flex;
     flex-direction: column;
     align-content: center;
-    align-items: center;
+    align-items: center; */
     border-radius: 8px;
-    margin-top: 204px;
-    margin-left: 1060px;
+    margin-top: 400px;
+    margin-left: 1400px;
     width: 920px;
-    height: 14130px;
+    height: 1100px;
     background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    z-index: 1;
+    z-index: 10;
   }
 
   .popup-image {
@@ -925,14 +926,15 @@ h3 {
 
   .frame18 {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
     align-items: flex-start;
     padding: 0;
     gap: 12px;
     width: 869px;
     height: 82px;
     left: 26px;
-    top: 718px;
+    margin-top: 40px;
+   
   }
 
   .title-1 {
@@ -948,37 +950,46 @@ h3 {
   }
 
   .first-button1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+ 
     padding: 12px;
-    gap: 10px;
+  
     width: 115px;
     height: 48px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
     color: #fff;
     background: #36b37e;
     border-radius: 8px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+
   }
 
   .first-button2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+ 
+    order: 0;
     padding: 12px;
-    gap: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+   
     width: 115px;
     height: 48px;
     color: #fff;
     background: #36b37e;
     border-radius: 8px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
   }
-
+ .popup-par {
+  text-align: start;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  margin-top: -90px;
+  margin-left: 20px;
+  margin-right: 0px;
+  width: 400px;
+  height: 80px;
+ 
+ }
   .lorem {
     display: flex;
     flex-direction: column;
@@ -989,21 +1000,21 @@ h3 {
     gap: 12px;
     width: 876px;
     height: 151px;
-    left: 24px;
+    margin-left: 24px;
     top: 888px;
+  
     margin-bottom: 15%;
   }
 
   .popup-list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    gap: 20px;
+    gap: 6px;
     list-style: none;
     margin-top: 9%;
     margin-bottom: 3%;
-    margin-left: -25%;
+
   }
 
   .popup-list .ruby {

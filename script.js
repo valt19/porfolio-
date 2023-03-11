@@ -19,9 +19,9 @@ openerButton.addEventListener('click', () => {
  
   <img  class = "popup-image"src="images/pop-up/Snapshoot Portfolio.png" alt="">
  </div>
-       <div class ="frame18"> <button class="first-button1" type="button" id="messagep">See source <img src="images/pop-up/button-icons/github.png" alt=""></button>
-        <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button>
-    <h3 class="popup-par">Keeping track of hundreds of <br> components</h3></div>
+ <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="images/pop-up/button-icons/github.png" alt=""></button>
+       <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button></div>
+    <h3 class="popup-par">Keeping track of hundreds of components</h3>
     <ul class="popup-list">
       <li class="ruby">Codekit</li>
       <li class="css">Github</li>
@@ -200,8 +200,8 @@ openerButton6.addEventListener('click', () => {
   <img  class = "popup-image"src="images/pop-up/Snapshoot Portfolio.png" alt="">
  </div>
        <div class ="frame18"> <button class="first-button1" type="button" id="messagep">See source <img src="images/pop-up/button-icons/github.png" alt=""></button>
-        <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button>
-    <h3 class="popup-par">Keeping track of hundreds of <br> components</h3></div>
+        <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button></div>
+   
     <ul class="popup-list">
       <li class="ruby">Codekit</li>
       <li class="css">Github</li>
