@@ -721,20 +721,6 @@ h3 {
   margin-left: 15px;
 }
 
-#errormessage {
-  color: red;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 20px;
-  line-height: 28px;
-  height: 28px;
-  width: 427px;
-  top: 70px;
-  right: 0;
-  left: 510px;
-}
-
 .msg {
   width: 327px;
   height: 114px;
@@ -871,15 +857,16 @@ h3 {
   /* popup desktop */
   .main {
     position: fixed;
-    display: flex;
-    justify-content: center;
-    width: 1440px;
-    height: 1900px;
-    left: 900px;
-    top: -70px;
-    background: #9da0a5;
-    mix-blend-mode: multiply;
-    margin-left: -45%;
+    width: 2440px;
+    height: 2600px;
+    top: 900px;
+    background: #0c59dd;
+    mix-blend-mode: normal;
+    margin-left: 1800px;
+    margin-top: -1000px;
+    z-index: 1;
+    border:2px solid #017243;
+    
   }
 
   .maincard {
@@ -1061,8 +1048,6 @@ h3 {
     flex-grow: 0;
   }
 
-
-
   /* popup desktop */
   .hey-there {
     width: 80%;
@@ -1108,15 +1093,6 @@ h3 {
     display: none;
   }
 
-  /* .grid {
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-  }
-  .hey-text {
-    width: 100%;
-    height: 0px;
-  } */
   .all-works {
     margin-top: 200px;
   }
@@ -1232,18 +1208,6 @@ h3 {
     padding: 0;
     margin-bottom: 30px;
     margin-left: 15px;
-  }
-
-  #errormessage {
-    color: red;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 20px;
-    line-height: 28px;
-    height: 27px;
-    width: 427px;
-    margin-bottom: 5%;
   }
 
   .msg {
