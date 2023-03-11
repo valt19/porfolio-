@@ -884,7 +884,9 @@ h3 {
 
   .maincard {
     position: fixed;
+
     /* grid-column: 8; */
+
     /* display: flex;
     flex-direction: column;
     align-content: center;
@@ -903,7 +905,7 @@ h3 {
   .popup-image {
     background-repeat: no-repeat;
     width: 872px;
-    height: 616px;
+    height: 615px;
     left: 24px;
     top: 78px;
     border: 1px solid #dfe1e6;
@@ -934,7 +936,6 @@ h3 {
     height: 82px;
     left: 26px;
     margin-top: 40px;
-   
   }
 
   .title-1 {
@@ -950,46 +951,42 @@ h3 {
   }
 
   .first-button1 {
- 
     padding: 12px;
-  
     width: 115px;
     height: 48px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     color: #fff;
     background: #36b37e;
     border-radius: 8px;
-
   }
 
   .first-button2 {
- 
     order: 0;
     padding: 12px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-   
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     width: 115px;
     height: 48px;
     color: #fff;
     background: #36b37e;
     border-radius: 8px;
   }
- .popup-par {
-  text-align: start;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  margin-top: -90px;
-  margin-left: 20px;
-  margin-right: 0px;
-  width: 400px;
-  height: 80px;
- 
- }
+
+  .popup-par {
+    text-align: start;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-top: -90px;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 400px;
+    height: 80px;
+  }
+
   .lorem {
     display: flex;
     flex-direction: column;
@@ -1002,7 +999,6 @@ h3 {
     height: 151px;
     margin-left: 24px;
     top: 888px;
-  
     margin-bottom: 15%;
   }
 
@@ -1014,7 +1010,6 @@ h3 {
     list-style: none;
     margin-top: 9%;
     margin-bottom: 3%;
-
   }
 
   .popup-list .ruby {
