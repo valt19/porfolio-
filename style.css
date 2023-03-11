@@ -721,6 +721,20 @@ h3 {
   margin-left: 15px;
 }
 
+#errormessage {
+  color: red;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 28px;
+  height: 28px;
+  width: 427px;
+  top: 70px;
+  right: 0;
+  left: 510px;
+}
+
 .msg {
   width: 327px;
   height: 114px;
@@ -1217,6 +1231,18 @@ h3 {
     padding: 0;
     margin-bottom: 30px;
     margin-left: 15px;
+  }
+
+  #errormessage {
+    color: red;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 28px;
+    height: 28px;
+    width: 427px;
+    margin-bottom: 5%;
   }
 
   .msg {
