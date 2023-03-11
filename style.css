@@ -721,18 +721,20 @@ h3 {
   margin-left: 15px;
 }
 
-#errormessage {
+#form-id #errormessage {
+  position: absolute;
   color: red;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 28px;
   height: 28px;
-  width: 427px;
-  top: 70px;
-  right: 0;
-  left: 510px;
+  width: 330px;
+  margin-top: -34px;
+  margin-right: 0px;
+  margin-left: 16px;
+
 }
 
 .msg {
@@ -1237,8 +1239,8 @@ h3 {
     color: red;
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 100;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 24px;
     line-height: 28px;
     height: 27px;
     width: 427px;
