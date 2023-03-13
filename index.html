@@ -39,7 +39,7 @@
         </nav>
         
     </header>
-    <script src="script.js"></script>
+    
     <section class="head-section">
     <div class="hey-there">
 <h1 class="hey-text">Hey there. I’m Mariane <br>
@@ -77,13 +77,12 @@
       <div class="recent-works"><h2 class="hey-text">My Recent Works</h2>
       </div>
 <div class="green"></div>
-      <div class="project-cards">
+      <div class="T">
         <!--Project section-1 -->
         
-        <div class="project-section-1 project-1">
+        <div class="project-section-1 project1">
           <div class="card"></div>
-        
-          <div class="project-work">
+          <div class="project-work ">
             <h3 class="title-1">Multi-Post Stories<br>Gain+Glory</h3>
             <ul class="list">
               <li class="ruby">Ruby on rails</li>
@@ -91,7 +90,7 @@
               <li class="javascript">JavaScript</li>
               <li class="html">html</li>
             </ul>
-            <button class="button active-btn" type="button">See Project</button>
+            <button class="button button1" type="button">See Project</button>
           </div>
         </div>
         
@@ -108,7 +107,7 @@
               <li class="javascript">JavaScript</li>
               <li class="html">html</li>
             </ul>
-            <button class="button active-btn" type="button">See Project</button>
+            <button class="button  button2"  type="button">See Project</button>
           </div>
         </div>
         <!--Project section-3-->
@@ -124,7 +123,7 @@
               <li class="javascript">JavaScript</li>
               <li class="html">html</li>
             </ul>
-            <button class="button active-btn" type="button">See Project</button>
+            <button class="button  button3" type="button">See Project</button>
           </div>
         </div>
         <!--Project section-4-->
@@ -140,7 +139,7 @@
               <li class="javascript">JavaScript</li>
               <li class="html">html</li>
             </ul>
-            <button class="button active-btn" type="button">See Project</button>
+            <button class="button  button4" type="button">See Project</button>
           </div>
         </div>
         <!--Project section-5-->
@@ -156,7 +155,7 @@
               <li class="javascript">JavaScript</li>
               <li class="html">html</li>
             </ul>
-            <button class="button active-btn" type="button">See Project</button>
+            <button class="button  button5" type="button">See Project</button>
           </div>
         </div>
         <!--Project section-6-->
@@ -172,7 +171,7 @@
               <li class="javascript">JavaScript</li>
               <li class="html">html</li>
             </ul>
-            <button class="button active-btn" type="button">See Project</button>
+            <button class="button  button6" type="button">See Project</button>
           </div>
         </div>
       </div>
@@ -237,11 +236,12 @@
       <div class="info">
 
        <div class="form-text"><h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3></div>
-       <form action="https://formspree.io/f/xeqwozwl" method="post" >
+       <form id="form-id"  action="https://formspree.io/f/xeqwozwl" method="post" >
        
          <input id="name" type="text" class="input"  name="user_name" placeholder="Full name" required maxlength="30">
 
-         <input id="email" type="email" class="input" name="user_email" placeholder="Email address" required>
+         <input id="email"  type="email" class="input" name="user_email" placeholder="Email address" required>
+         <div id="errormessage"></div>
 
          <textarea id="message" class="msg" name="user_message" placeholder="Enter text here" required maxlength="500"></textarea>
 
@@ -274,5 +274,6 @@
       </ul>
       <div class="email-"><p class="email-address">odeke.trevor@gmail.com</p></div>
        </footer>
+       <script src="script.js"></script>
 </body>
 </html>
