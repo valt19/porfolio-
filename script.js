@@ -6,6 +6,6 @@ menubar.addEventListener("click", () => {
   navmenu.classList.toggle("active");
 });
 
-function closeMenu() {
-  document.getElementById("menu").style.display = "none";
-}
+// function closeMenu() {
+//   document.getElementById("menu").style.display = "none";
+// }
