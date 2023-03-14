@@ -1,6 +1,4 @@
-// function closeMenu() {
-//   document.getElementById("menu").style.display = "none";
-// }
+
 
 const menubar = document.querySelector('.hamburger');
 const navmenu = document.querySelector('.nav-menu');
@@ -9,7 +7,9 @@ menubar.addEventListener('click', () => {
   menubar.classList.toggle('active');
   navmenu.classList.toggle('active');
 });
-
+function closeMenu() {
+  document.getElementById("menu").style.display = "none";
+}
 const sectioncard = document.querySelector('.project1');
 const openerButton = document.querySelector('.button1');
 openerButton.addEventListener('click', () => {
