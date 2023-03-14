@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 
 body {
   overflow-x: hidden;
@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 90px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -74,7 +74,8 @@ body {
   justify-content: flex-end;
   margin-top: -60px;
   padding: 0;
-  color: #67798e;
+  color: grey;
+  font-size: 14px;
 }
 
 .nav-menu-desktop {
@@ -97,7 +98,7 @@ body {
   mix-blend-mode: normal;
   z-index: 1;
   list-style: none;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -110,7 +111,7 @@ body {
 }
 
 .nav-menu a {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   list-style: none;
   font-weight: 600;
@@ -130,7 +131,7 @@ body {
 }
 
 .head-section {
-  background-image: url('images/background-image/backround-image.png');
+  background-image: url("images/background-image/backround-image.png");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -150,7 +151,7 @@ body {
 
 .hey-text {
   width: 100%;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -169,7 +170,7 @@ body {
 
 .text {
   width: 80%;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 380;
   font-size: 20px;
@@ -278,7 +279,7 @@ body {
 .hey-tex {
   width: 327px;
   height: 97px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -426,7 +427,8 @@ body {
 }
 
 .about-me {
-  background-image: url('images/about-me/background/illustration\ 2-about-me\ mobile.svg'), url('images/about-me/background/illustration\ 1-\ about\ me-mobile.svg');
+  background-image: url("images/about-me/background/illustration\ 2-about-me\ mobile.svg"),
+    url("images/about-me/background/illustration\ 1-\ about\ me-mobile.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 70px, 70px;
   background-position: left 400px, top right 0;
@@ -462,7 +464,7 @@ body {
   font-size: 20px;
   font-weight: 380;
   text-align: center;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   line-height: 32px;
   color: #42526e;
   flex: none;
@@ -490,7 +492,7 @@ body {
 }
 
 h3 {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 24px;
   font-weight: 600;
@@ -526,7 +528,7 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   color: #36b37e;
   padding-left: 0;
@@ -675,7 +677,7 @@ h3 {
 }
 
 .form {
-  background-image: url('./images/form/illustration-contact-form.svg');
+  background-image: url("./images/form/illustration-contact-form.svg");
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: right bottom;
@@ -692,7 +694,7 @@ h3 {
 }
 
 .form-text h4 {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: 600;
@@ -734,7 +736,7 @@ h3 {
 }
 
 .email-address {
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-size: 20px;
   font-weight: 300;
@@ -791,7 +793,7 @@ h3 {
   }
 
   .head-section {
-    background-image: url('images/background-image/desktop/Header-llustration-desktop@2x.png');
+    background-image: url("images/background-image/desktop/Header-llustration-desktop@2x.png");
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -835,7 +837,7 @@ h3 {
   }
 
   .nav-menu-desktop a {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     list-style: none;
     font-weight: 600;
@@ -856,7 +858,7 @@ h3 {
 
   .hey-there {
     width: 80%;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -871,7 +873,7 @@ h3 {
 
   .text {
     width: 70%;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -926,7 +928,8 @@ h3 {
   }
 
   .about-me {
-    background-image: url('images/background-image/desktop/about/illustration-about-me-2-desktop@2x.png'), url('images/background-image/desktop/about/illustration-about\ me-1-desktop@2x.png');
+    background-image: url("images/background-image/desktop/about/illustration-about-me-2-desktop@2x.png"),
+      url("images/background-image/desktop/about/illustration-about\ me-1-desktop@2x.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 160px, 160px;
     background-position: left 200px, top right 0;
@@ -1000,7 +1003,7 @@ h3 {
   }
 
   .form-text h4 {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 40px;
     font-weight: 600;
@@ -1037,7 +1040,7 @@ h3 {
   }
 
   .email-address {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: 20px;
     font-weight: 300;
@@ -1066,7 +1069,9 @@ h3 {
   }
 
   .form {
-    background-image: url('images/background-image/desktop/form/illustration-1-contact-form-desktop.svg'), url('images/background-image/desktop/form/illustration-2-contact-form-desktop@2x.png'), url('images/background-image/desktop/form/contact\ form-illustratoin-3-desktop.svg');
+    background-image: url("images/background-image/desktop/form/illustration-1-contact-form-desktop.svg"),
+      url("images/background-image/desktop/form/illustration-2-contact-form-desktop@2x.png"),
+      url("images/background-image/desktop/form/contact\ form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat;
     background-size: 160px, 160px;
     background-position: left 400px, bottom center, bottom right 0;
