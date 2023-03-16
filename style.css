@@ -414,7 +414,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 81px;
+  width: 82px;
   height: 32px;
   background: #ebf0ee;
   border-radius: 4px;
@@ -462,11 +462,7 @@ body {
   margin-left: 47%;
   margin-top: 20px;
 
-  /* border-bottom: 4px  solid #36b37e;
-  width: 33%;
-  margin-left: 45%;
-  margin-top: 3%;
-  padding-bottom: 8%; */
+
 }
 
 .hey-tex {
@@ -501,14 +497,6 @@ body {
   margin-left: 30px;
 }
 
-/* .project-section-1 {
-  display: grid;
-  grid-template-columns: 327px;
-  grid-template-rows: repeat(5,474);
-  row-gap: 24px;
-  justify-content: center;
-  padding-top: 62px;
-} */
 
 .card {
   width: 327px;
