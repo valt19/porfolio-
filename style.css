@@ -521,10 +521,10 @@ body {
   justify-content: center;
   align-items: center;
   width: 102px;
-  height: 32px;
+  height: 31px;
   background: #ebf0ee;
   border-radius: 4px;
-  margin-right: 7px;
+  margin-right: 8px;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -552,7 +552,7 @@ body {
   height: 32px;
   background: #ebf0ee;
   border-radius: 4px;
-  margin-right: 7px;
+  margin-right: 8px;
   flex: none;
   order: 2;
   flex-grow: 0;
