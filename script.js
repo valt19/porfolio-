@@ -1,3 +1,7 @@
+// function closeMenu() {
+//   document.getElementById("menu").style.display = "none";
+// }
+
 const menubar = document.querySelector('.hamburger');
 const navmenu = document.querySelector('.nav-menu');
 // const open = document.querySelectorAll('.button');

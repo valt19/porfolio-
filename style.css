@@ -1041,8 +1041,15 @@ h3 {
   }
 
   .maincard {
+
     grid-column: 8;
     display: flex;
+    position: fixed;
+
+    /* grid-column: 8; */
+
+    /* display: flex;
+
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -1060,7 +1067,7 @@ h3 {
   .popup-image {
     background-repeat: no-repeat;
     width: 872px;
-    height: 616px;
+    height: 615px;
     left: 24px;
     top: 78px;
     border: 1px solid #dfe1e6;
@@ -1090,7 +1097,11 @@ h3 {
     width: 869px;
     height: 82px;
     left: 26px;
+
     top: 718px;
+
+    margin-top: 40px;
+
   }
 
   .title-1 {
@@ -1106,6 +1117,7 @@ h3 {
   }
 
   .first-button1 {
+
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1127,6 +1139,27 @@ h3 {
     align-items: center;
     padding: 12px;
     gap: 10px;
+
+    padding: 12px;
+    width: 115px;
+    height: 48px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    color: #fff;
+    background: #36b37e;
+    border-radius: 8px;
+  }
+
+  .first-button2 {
+    order: 0;
+    padding: 12px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
     width: 115px;
     height: 48px;
     color: #fff;
@@ -1136,6 +1169,18 @@ h3 {
     order: 0;
     flex-grow: 0;
   }
+
+
+  .popup-par {
+    text-align: start;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin-top: -90px;
+    margin-left: 20px;
+    margin-right: 0;
+    width: 400px;
+    height: 80px;
+  }
+
 
   .lorem {
     display: flex;
@@ -1162,6 +1207,8 @@ h3 {
     margin-top: 9%;
     margin-bottom: 3%;
     margin-left: -25%;
+
+
   }
 
   .popup-list .ruby {
@@ -1241,7 +1288,7 @@ h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 31px;
     text-align: center;
     color: #172b4d;
     flex: none;
