@@ -721,21 +721,6 @@ h3 {
   margin-left: 15px;
 }
 
-#form-id #errormessage {
-  position: absolute;
-  color: red;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 28px;
-  height: 28px;
-  width: 427px;
-  top: 70px;
-  right: 0;
-  left: 510px;
-}
-
 .msg {
   width: 327px;
   height: 114px;
@@ -871,35 +856,40 @@ h3 {
 
   /* popup desktop */
   .main {
-    display: flex;
-    justify-content: center;
-    width: 1440px;
-    height: 1300px;
-    left: 0;
+    position: fixed;
+    width: 2440px;
+    height: 2600px;
     top: 900px;
-    background: #9da0a5;
-    mix-blend-mode: multiply;
-    margin-left: 5%;
+    background: #0c59dd;
+    mix-blend-mode: normal;
+    margin-left: 1800px;
+    margin-top: -1000px;
+    z-index: 1;
+    border: 2px solid #017243;
   }
 
   .maincard {
+
+    grid-column: 8;
+    display: flex;
     position: fixed;
 
     /* grid-column: 8; */
 
     /* display: flex;
+
     flex-direction: column;
     align-content: center;
-    align-items: center; */
+    align-items: center;
     border-radius: 8px;
-    margin-top: 400px;
-    margin-left: 1400px;
+    margin-top: 204px;
+    margin-left: 960px;
     width: 920px;
-    height: 1100px;
+    height: 1530px;
     background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-    z-index: 10;
+    z-index: 1;
   }
 
   .popup-image {
@@ -928,14 +918,18 @@ h3 {
 
   .frame18 {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row-reverse;
     align-items: flex-start;
     padding: 0;
     gap: 12px;
     width: 869px;
     height: 82px;
     left: 26px;
+
+    top: 718px;
+
     margin-top: 40px;
+
   }
 
   .title-1 {
@@ -951,6 +945,29 @@ h3 {
   }
 
   .first-button1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 115px;
+    height: 48px;
+    color: #fff;
+    background: #36b37e;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .first-button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+
     padding: 12px;
     width: 115px;
     height: 48px;
@@ -970,12 +987,17 @@ h3 {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
+
     width: 115px;
     height: 48px;
     color: #fff;
     background: #36b37e;
     border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
+
 
   .popup-par {
     text-align: start;
@@ -987,6 +1009,7 @@ h3 {
     height: 80px;
   }
 
+
   .lorem {
     display: flex;
     flex-direction: column;
@@ -997,19 +1020,23 @@ h3 {
     gap: 12px;
     width: 876px;
     height: 151px;
-    margin-left: 24px;
+    left: 24px;
     top: 888px;
     margin-bottom: 15%;
   }
 
   .popup-list {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    gap: 6px;
+    gap: 20px;
     list-style: none;
     margin-top: 9%;
     margin-bottom: 3%;
+    margin-left: -25%;
+
+
   }
 
   .popup-list .ruby {
@@ -1227,18 +1254,6 @@ h3 {
     padding: 0;
     margin-bottom: 30px;
     margin-left: 15px;
-  }
-
-  #errormessage {
-    color: red;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 24px;
-    line-height: 28px;
-    height: 27px;
-    width: 427px;
-    margin-bottom: 5%;
   }
 
   .msg {
