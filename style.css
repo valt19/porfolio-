@@ -873,11 +873,7 @@ h3 {
     grid-column: 8;
     display: flex;
     position: fixed;
-
-    /* grid-column: 8; */
-
-    /* display: flex;
-
+    display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
