@@ -273,6 +273,7 @@ body {
   margin-bottom: 26px;
   background-color: white;
   border-radius: 16px;
+  overflow-y: scroll !important;
 }
 
 .popup-image {
@@ -1086,11 +1087,12 @@ h3 {
     align-items: center;
     width: 920px;
     height: 1083px;
-    margin-left: 150px;
+    margin-left: 120px;
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 26px;
     z-index: 1;
+    overflow-y: scroll !important;
   }
 
   .popup-image {
