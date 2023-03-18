@@ -2,44 +2,44 @@
 //   document.getElementById("menu").style.display = "none";
 // }
 
-const menubar = document.querySelector(".hamburger");
-const navmenu = document.querySelector(".nav-menu");
+const menubar = document.querySelector('.hamburger');
+const navmenu = document.querySelector('.nav-menu');
 // const open = document.querySelectorAll('.button');
-menubar.addEventListener("click", () => {
-  menubar.classList.toggle("active");
-  navmenu.classList.toggle("active");
+menubar.addEventListener('click', () => {
+  menubar.classList.toggle('active');
+  navmenu.classList.toggle('active');
 });
 
 // Popup window section
 
 const array = [
   {
-    name: "Keeping track of hundreds of components",
+    name: 'Keeping track of hundreds of components',
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    mobileImg: "./images/pop-up/mobile.png",
-    liveImg: "./images/pop-up/button-icons/Icon.png",
-    githubImg: "./images/pop-up/button-icons/github.png",
-    desktopImg: "./images/pop-up/Snapshoot Portfolio.png",
+    mobileImg: './images/pop-up/mobile.png',
+    liveImg: './images/pop-up/button-icons/Icon.png',
+    githubImg: './images/pop-up/button-icons/github.png',
+    desktopImg: './images/pop-up/Snapshoot Portfolio.png',
     tech: [
-      "Ruby on rails",
-      "css",
-      "JavaScript",
-      "Bootstrap",
-      "Terminal",
-      "Codepen",
+      'Ruby on rails',
+      'css',
+      'JavaScript',
+      'Bootstrap',
+      'Terminal',
+      'Codepen',
     ],
   },
 ];
 
-const body = document.querySelector("body");
+const body = document.querySelector('body');
 // const sectioncard = document.querySelector(".project1");
-const openerButton = document.querySelector(".button1");
+const openerButton = document.querySelector('.button1');
 
-openerButton.addEventListener("click", () => {
-  const main = document.createElement("div");
-  main.className = "main";
-  const maincard = document.createElement("div");
-  maincard.className = "maincard";
+openerButton.addEventListener('click', () => {
+  const main = document.createElement('div');
+  main.className = 'main';
+  const maincard = document.createElement('div');
+  maincard.className = 'maincard';
   maincard.innerHTML = `
 
   <button class="close-button2">&times;</button>
@@ -74,20 +74,20 @@ openerButton.addEventListener("click", () => {
   main.appendChild(maincard);
   body.appendChild(main);
 
-  const closeButton2 = document.querySelector(".close-button2");
-  closeButton2.addEventListener("click", () => {
+  const closeButton2 = document.querySelector('.close-button2');
+  closeButton2.addEventListener('click', () => {
     main.removeChild(maincard);
     body.removeChild(main);
   });
 });
 
 // const sectioncard2 = document.querySelector(".project-2");
-const openerButton2 = document.querySelector(".button2");
-openerButton2.addEventListener("click", () => {
-  const main = document.createElement("div");
-  main.className = "main";
-  const maincard = document.createElement("div");
-  maincard.className = "maincard";
+const openerButton2 = document.querySelector('.button2');
+openerButton2.addEventListener('click', () => {
+  const main = document.createElement('div');
+  main.className = 'main';
+  const maincard = document.createElement('div');
+  maincard.className = 'maincard';
   maincard.innerHTML = `
 
   <button class="close-button2">&times;</button>
@@ -121,20 +121,20 @@ openerButton2.addEventListener("click", () => {
   main.appendChild(maincard);
   body.appendChild(main);
 
-  const closeButton2 = document.querySelector(".close-button2");
-  closeButton2.addEventListener("click", () => {
+  const closeButton2 = document.querySelector('.close-button2');
+  closeButton2.addEventListener('click', () => {
     main.removeChild(maincard);
     body.removeChild(main);
   });
 });
 
 // const sectioncard3 = document.querySelector(".project-3");
-const openerButton3 = document.querySelector(".button3");
-openerButton3.addEventListener("click", () => {
-  const main = document.createElement("div");
-  main.className = "main";
-  const maincard = document.createElement("div");
-  maincard.className = "maincard";
+const openerButton3 = document.querySelector('.button3');
+openerButton3.addEventListener('click', () => {
+  const main = document.createElement('div');
+  main.className = 'main';
+  const maincard = document.createElement('div');
+  maincard.className = 'maincard';
   maincard.innerHTML = `
 
   <button class="close-button2">&times;</button>
@@ -168,20 +168,20 @@ openerButton3.addEventListener("click", () => {
   main.appendChild(maincard);
   body.appendChild(main);
 
-  const closeButton2 = document.querySelector(".close-button2");
-  closeButton2.addEventListener("click", () => {
+  const closeButton2 = document.querySelector('.close-button2');
+  closeButton2.addEventListener('click', () => {
     main.removeChild(maincard);
     body.removeChild(main);
   });
 });
 
 // const sectioncard4 = document.querySelector(".project-4");
-const openerButton4 = document.querySelector(".button4");
-openerButton4.addEventListener("click", () => {
-  const main = document.createElement("div");
-  main.className = "main";
-  const maincard = document.createElement("div");
-  maincard.className = "maincard";
+const openerButton4 = document.querySelector('.button4');
+openerButton4.addEventListener('click', () => {
+  const main = document.createElement('div');
+  main.className = 'main';
+  const maincard = document.createElement('div');
+  maincard.className = 'maincard';
   maincard.innerHTML = `
 
   <button class="close-button2">&times;</button>
@@ -215,20 +215,20 @@ openerButton4.addEventListener("click", () => {
   main.appendChild(maincard);
   body.appendChild(main);
 
-  const closeButton2 = document.querySelector(".close-button2");
-  closeButton2.addEventListener("click", () => {
+  const closeButton2 = document.querySelector('.close-button2');
+  closeButton2.addEventListener('click', () => {
     main.removeChild(maincard);
     body.removeChild(main);
   });
 });
 
 // const sectioncard5 = document.querySelector(".project-5");
-const openerButton5 = document.querySelector(".button5");
-openerButton5.addEventListener("click", () => {
-  const main = document.createElement("div");
-  main.className = "main";
-  const maincard = document.createElement("div");
-  maincard.className = "maincard";
+const openerButton5 = document.querySelector('.button5');
+openerButton5.addEventListener('click', () => {
+  const main = document.createElement('div');
+  main.className = 'main';
+  const maincard = document.createElement('div');
+  maincard.className = 'maincard';
   maincard.innerHTML = `
 
   <button class="close-button2">&times;</button>
@@ -262,20 +262,20 @@ openerButton5.addEventListener("click", () => {
   main.appendChild(maincard);
   body.appendChild(main);
 
-  const closeButton2 = document.querySelector(".close-button2");
-  closeButton2.addEventListener("click", () => {
+  const closeButton2 = document.querySelector('.close-button2');
+  closeButton2.addEventListener('click', () => {
     main.removeChild(maincard);
     body.removeChild(main);
   });
 });
 
 // const sectioncard6 = document.querySelector(".project-6");
-const openerButton6 = document.querySelector(".button6");
-openerButton6.addEventListener("click", () => {
-  const main = document.createElement("div");
-  main.className = "main";
-  const maincard = document.createElement("div");
-  maincard.className = "maincard";
+const openerButton6 = document.querySelector('.button6');
+openerButton6.addEventListener('click', () => {
+  const main = document.createElement('div');
+  main.className = 'main';
+  const maincard = document.createElement('div');
+  maincard.className = 'maincard';
   maincard.innerHTML = `
 
   <button class="close-button2">&times;</button>
@@ -309,22 +309,21 @@ openerButton6.addEventListener("click", () => {
   main.appendChild(maincard);
   body.appendChild(main);
 
-  const closeButton2 = document.querySelector(".close-button2");
-  closeButton2.addEventListener("click", () => {
+  const closeButton2 = document.querySelector('.close-button2');
+  closeButton2.addEventListener('click', () => {
     main.removeChild(maincard);
     body.removeChild(main);
   });
 });
 
-const contactForm = document.getElementById("form-id");
-const contactEmail = document.getElementById("email");
-const contactError = document.getElementById("errormessage");
+const contactForm = document.getElementById('form-id');
+const contactEmail = document.getElementById('email');
+const contactError = document.getElementById('errormessage');
 
-contactForm.addEventListener("submit", (event) => {
+contactForm.addEventListener('submit', (event) => {
   if (contactEmail.value.toLowerCase() !== contactEmail.value) {
     event.preventDefault();
-    contactError.innerText =
-      "please type your email in lowercase.form not submitted";
-    contactError.style.position = "inherit";
+    contactError.innerText = 'please type your email in lowercase.form not submitted';
+    contactError.style.position = 'inherit';
   }
 });
