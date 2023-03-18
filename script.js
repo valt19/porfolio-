@@ -15,10 +15,10 @@ menubar.addEventListener("click", () => {
 const array = [
   {
     name: "Keeping track of hundreds of components",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     mobileImg: "./images/pop-up/mobile.png",
-    liveImg: "./images/button-icons/Icon.png",
-    githubImg: "./images/button-icons/github.png",
+    liveImg: "./images/pop-up/button-icons/Icon.png",
+    githubImg: "./images/pop-up/button-icons/github.png",
     desktopImg: "./images/pop-up/Snapshoot Portfolio.png",
     tech: [
       "Ruby on rails",
@@ -46,11 +46,11 @@ openerButton.addEventListener("click", () => {
   <div>
  
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
-  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
+  <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
  <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
        <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
-    <h3 class="popup-par">${array[0].name}</h3>
+    <h2 class="popup-par">${array[0].name}</h2>
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -59,7 +59,10 @@ openerButton.addEventListener("click", () => {
       <li class="html">${array[0].tech[4]}</li>
       <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>${array[0].desc}</h2></div>
+    <div class ="lorem">${array[0].desc}</div>
+    <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
+       <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
+    
   `;
   sectioncard.appendChild(main);
   sectioncard.appendChild(maincard);
@@ -155,7 +158,7 @@ openerButton4.addEventListener("click", () => {
   <div>
  
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
-  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
+  <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
  <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
        <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
