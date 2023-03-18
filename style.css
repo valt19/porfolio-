@@ -248,10 +248,11 @@ body {
 .main {
   position: fixed;
   width: 2440px;
-  height: 900px;
+  height: 1900px;
   top: 900px;
   background: #dfe0e2;
   mix-blend-mode: normal;
+
   /* margin-left: 1800px; */
   margin-top: -1000px;
   z-index: 1;
@@ -291,7 +292,7 @@ body {
 }
 
 .popup-par {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -357,9 +358,9 @@ body {
   align-items: center;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  margin: 16px;
-  font: 16px;
+  font-size: 16px;
   line-height: 24px;
+  margin: 16px;
 }
 
 .frame18 {
@@ -420,7 +421,7 @@ body {
   padding-top: 32px;
 }
 
-.rece {
+.grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
@@ -479,6 +480,36 @@ body {
   border-radius: 8px;
   margin-top: 64px;
   margin-left: 30px;
+}
+
+.project-1 {
+  grid-column: 4;
+  margin-left: 25px;
+}
+
+.project-2 {
+  grid-column: 4;
+  margin-left: 25px;
+}
+
+.project-3 {
+  grid-column: 4;
+  margin-left: 25px;
+}
+
+.project-4 {
+  grid-column: 4;
+  margin-left: 25px;
+}
+
+.project-5 {
+  grid-column: 4;
+  margin-left: 25px;
+}
+
+.project-6 {
+  grid-column: 4;
+  margin-left: 25px;
 }
 
 .card {
@@ -581,7 +612,8 @@ body {
 }
 
 .about-me {
-  background-image: url("images/about-me/background/illustration\ 2-about-me\ mobile.svg"),
+  background-image:
+    url("images/about-me/background/illustration\ 2-about-me\ mobile.svg"),
     url("images/about-me/background/illustration\ 1-\ about\ me-mobile.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 70px, 70px;
@@ -1030,23 +1062,16 @@ h3 {
   .main {
     position: fixed;
     width: 2540px;
-    height: 900px;
+    height: 1900px;
     top: 900px;
     background: #dfe0e2;
     mix-blend-mode: normal;
-    margin-left: 1800px;
+    margin-left: 800px;
     margin-top: -1000px;
     z-index: 1;
   }
 
   .maincard {
-    width: 920px;
-    height: 1075px;
-    margin: auto;
-    /* overflow-y: auto; */
-  }
-
-  .maincard2 {
     width: 920px;
     height: 1075px;
     margin: auto;
@@ -1075,7 +1100,7 @@ h3 {
     width: 60%;
     margin-left: 30px;
     margin-top: -7px;
-    font-family: "Inter";
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -1128,7 +1153,7 @@ h3 {
 
   .popup-list {
     list-style: none;
-    display: flex-start;
+    display: flex;
     justify-content: space-around;
     margin-right: auto;
     padding: 0 20px;
@@ -1268,7 +1293,8 @@ h3 {
   }
 
   .about-me {
-    background-image: url("images/background-image/desktop/about/illustration-about-me-2-desktop@2x.png"),
+    background-image:
+      url("images/background-image/desktop/about/illustration-about-me-2-desktop@2x.png"),
       url("images/background-image/desktop/about/illustration-about\ me-1-desktop@2x.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 160px, 160px;
@@ -1294,15 +1320,51 @@ h3 {
     margin-left: 45%;
   }
 
-  .project-cards {
-    width: 93%;
-    height: auto;
-    margin: 12px auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-left: 70px;
-    padding-right: 140px;
+  .project-cards-item {
+    grid-column: 4/10;
+  }
+
+  .project-section-1 {
+    grid-column: 6;
+  }
+
+  .project1 {
+    grid-column: 3;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-bottom: -610px;
+  }
+
+  .project-2 {
+    grid-column: 2;
+    margin-left: 50px;
+    margin-right: 0;
+  }
+
+  .project-3 {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 50px;
+  }
+
+  .project-4 {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: 50px;
+    margin-right: 0;
+  }
+
+  .project-5 {
+    grid-column: 2;
+    grid-row: 3;
+    margin-left: 50px;
+    margin-right: 0;
+  }
+
+  .project-6 {
+    grid-column: 3;
+    grid-row: 3;
+    margin-left: 50px;
   }
 
   .sections-cards {
@@ -1424,7 +1486,8 @@ h3 {
   }
 
   .form {
-    background-image: url("images/background-image/desktop/form/illustration-1-contact-form-desktop.svg"),
+    background-image:
+      url("images/background-image/desktop/form/illustration-1-contact-form-desktop.svg"),
       url("images/background-image/desktop/form/illustration-2-contact-form-desktop@2x.png"),
       url("images/background-image/desktop/form/contact\ form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat;
