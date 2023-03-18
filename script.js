@@ -32,7 +32,7 @@ const array = [
 ];
 
 const body = document.querySelector("body");
-const sectioncard = document.querySelector(".project1");
+// const sectioncard = document.querySelector(".project1");
 const openerButton = document.querySelector(".button1");
 
 openerButton.addEventListener("click", () => {
@@ -81,7 +81,7 @@ openerButton.addEventListener("click", () => {
   });
 });
 
-const sectioncard2 = document.querySelector(".project-2");
+// const sectioncard2 = document.querySelector(".project-2");
 const openerButton2 = document.querySelector(".button2");
 openerButton2.addEventListener("click", () => {
   const main = document.createElement("div");
@@ -128,7 +128,7 @@ openerButton2.addEventListener("click", () => {
   });
 });
 
-const sectioncard3 = document.querySelector(".project-3");
+// const sectioncard3 = document.querySelector(".project-3");
 const openerButton3 = document.querySelector(".button3");
 openerButton3.addEventListener("click", () => {
   const main = document.createElement("div");
@@ -175,7 +175,7 @@ openerButton3.addEventListener("click", () => {
   });
 });
 
-const sectioncard4 = document.querySelector(".project-4");
+// const sectioncard4 = document.querySelector(".project-4");
 const openerButton4 = document.querySelector(".button4");
 openerButton4.addEventListener("click", () => {
   const main = document.createElement("div");
@@ -222,7 +222,7 @@ openerButton4.addEventListener("click", () => {
   });
 });
 
-const sectioncard5 = document.querySelector(".project-5");
+// const sectioncard5 = document.querySelector(".project-5");
 const openerButton5 = document.querySelector(".button5");
 openerButton5.addEventListener("click", () => {
   const main = document.createElement("div");
@@ -269,7 +269,7 @@ openerButton5.addEventListener("click", () => {
   });
 });
 
-const sectioncard6 = document.querySelector(".project-6");
+// const sectioncard6 = document.querySelector(".project-6");
 const openerButton6 = document.querySelector(".button6");
 openerButton6.addEventListener("click", () => {
   const main = document.createElement("div");
