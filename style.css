@@ -597,7 +597,8 @@ body {
 }
 
 .about-me {
-  background-image: url("images/about-me/background/illustration\ 2-about-me\ mobile.svg"),
+  background-image:
+    url("images/about-me/background/illustration\ 2-about-me\ mobile.svg"),
     url("images/about-me/background/illustration\ 1-\ about\ me-mobile.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 70px, 70px;
@@ -1311,7 +1312,8 @@ h3 {
   }
 
   .about-me {
-    background-image: url("images/background-image/desktop/about/illustration-about-me-2-desktop@2x.png"),
+    background-image:
+      url("images/background-image/desktop/about/illustration-about-me-2-desktop@2x.png"),
       url("images/background-image/desktop/about/illustration-about\ me-1-desktop@2x.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 160px, 160px;
@@ -1467,7 +1469,8 @@ h3 {
   }
 
   .form {
-    background-image: url("images/background-image/desktop/form/illustration-1-contact-form-desktop.svg"),
+    background-image:
+      url("images/background-image/desktop/form/illustration-1-contact-form-desktop.svg"),
       url("images/background-image/desktop/form/illustration-2-contact-form-desktop@2x.png"),
       url("images/background-image/desktop/form/contact\ form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat;
