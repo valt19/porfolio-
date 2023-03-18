@@ -894,7 +894,6 @@ h3 {
   margin-left: 15px;
 }
 
-
 #errormessage {
   position: absolute;
   color: rgb(248, 5, 5);
@@ -909,7 +908,6 @@ h3 {
   right: 0;
   left: 410px;
 }
-
 
 .msg {
   width: 327px;
@@ -1414,7 +1412,6 @@ h3 {
     margin-left: 15px;
   }
 
-
   #errormessage {
     position: absolute;
     color: rgb(247, 8, 8);
@@ -1429,7 +1426,6 @@ h3 {
     right: 0;
     left: 410px;
   }
-
 
   .msg {
     width: 500.58px;
