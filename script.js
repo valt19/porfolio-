@@ -48,9 +48,13 @@ openerButton.addEventListener("click", () => {
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
   <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
- <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
-       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+ <div class="headline">
     <h2 class="popup-par">${array[0].name}</h2>
+    <div class ="frame18">
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button>
+       <button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+    </div>
+  </div>     
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -79,9 +83,9 @@ const openerButton2 = document.querySelector(".button2");
 openerButton2.addEventListener("click", () => {
   const main = document.createElement("div");
   main.className = "main";
-  const maincard = document.createElement("div");
-  maincard.className = "maincard";
-  maincard.innerHTML = `
+  const maincard2 = document.createElement("div");
+  maincard2.className = "maincard2";
+  maincard2.innerHTML = `
 
   <button class="close-button2">&times;</button>
   <div>
@@ -89,9 +93,13 @@ openerButton2.addEventListener("click", () => {
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
   <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
- <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
-       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+ <div class="headline">
     <h2 class="popup-par">${array[0].name}</h2>
+    <div class ="frame18">
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button>
+       <button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+    </div>
+  </div>   
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -105,11 +113,11 @@ openerButton2.addEventListener("click", () => {
        <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
     `;
   sectioncard2.appendChild(main);
-  sectioncard2.appendChild(maincard);
+  sectioncard2.appendChild(maincard2);
 
   const closeButton2 = document.querySelector(".close-button2");
   closeButton2.addEventListener("click", () => {
-    sectioncard2.removeChild(maincard);
+    sectioncard2.removeChild(maincard2);
     sectioncard2.removeChild(main);
   });
 });
@@ -129,9 +137,13 @@ openerButton3.addEventListener("click", () => {
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
   <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
- <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
-       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+ <div class="headline">
     <h2 class="popup-par">${array[0].name}</h2>
+    <div class ="frame18">
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button>
+       <button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+    </div>
+  </div>   
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -169,9 +181,13 @@ openerButton4.addEventListener("click", () => {
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
   <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
- <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
-       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+ <div class="headline">
     <h2 class="popup-par">${array[0].name}</h2>
+    <div class ="frame18">
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button>
+       <button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+    </div>
+  </div>   
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -209,9 +225,13 @@ openerButton5.addEventListener("click", () => {
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
   <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
- <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
-       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+ <div class="headline">
     <h2 class="popup-par">${array[0].name}</h2>
+    <div class ="frame18">
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button>
+       <button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+    </div>
+  </div>   
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -249,9 +269,13 @@ openerButton6.addEventListener("click", () => {
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
   <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
- <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
-       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+ <div class="headline">
     <h2 class="popup-par">${array[0].name}</h2>
+    <div class ="frame18">
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button>
+       <button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+    </div>
+  </div>   
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
