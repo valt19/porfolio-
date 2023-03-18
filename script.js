@@ -1,10 +1,5 @@
-// function closeMenu() {
-//   document.getElementById("menu").style.display = "none";
-// }
-
 const menubar = document.querySelector('.hamburger');
 const navmenu = document.querySelector('.nav-menu');
-// const open = document.querySelectorAll('.button');
 menubar.addEventListener('click', () => {
   menubar.classList.toggle('active');
   navmenu.classList.toggle('active');
@@ -32,7 +27,6 @@ const array = [
 ];
 
 const body = document.querySelector('body');
-// const sectioncard = document.querySelector(".project1");
 const openerButton = document.querySelector('.button1');
 
 openerButton.addEventListener('click', () => {
@@ -68,8 +62,6 @@ openerButton.addEventListener('click', () => {
        <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
     
   `;
-  // sectioncard.appendChild(main);
-  // sectioncard.appendChild(maincard);
 
   main.appendChild(maincard);
   body.appendChild(main);
@@ -81,7 +73,6 @@ openerButton.addEventListener('click', () => {
   });
 });
 
-// const sectioncard2 = document.querySelector(".project-2");
 const openerButton2 = document.querySelector('.button2');
 openerButton2.addEventListener('click', () => {
   const main = document.createElement('div');
@@ -115,8 +106,6 @@ openerButton2.addEventListener('click', () => {
     <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
        <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
     `;
-  // sectioncard2.appendChild(main);
-  // sectioncard2.appendChild(maincard);
 
   main.appendChild(maincard);
   body.appendChild(main);
@@ -128,7 +117,6 @@ openerButton2.addEventListener('click', () => {
   });
 });
 
-// const sectioncard3 = document.querySelector(".project-3");
 const openerButton3 = document.querySelector('.button3');
 openerButton3.addEventListener('click', () => {
   const main = document.createElement('div');
@@ -162,8 +150,6 @@ openerButton3.addEventListener('click', () => {
     <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
        <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
     `;
-  // sectioncard3.appendChild(main);
-  // sectioncard3.appendChild(maincard);
 
   main.appendChild(maincard);
   body.appendChild(main);
@@ -175,7 +161,6 @@ openerButton3.addEventListener('click', () => {
   });
 });
 
-// const sectioncard4 = document.querySelector(".project-4");
 const openerButton4 = document.querySelector('.button4');
 openerButton4.addEventListener('click', () => {
   const main = document.createElement('div');
@@ -209,8 +194,6 @@ openerButton4.addEventListener('click', () => {
     <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
        <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
     `;
-  // sectioncard4.appendChild(main);
-  // sectioncard4.appendChild(maincard);
 
   main.appendChild(maincard);
   body.appendChild(main);
@@ -222,7 +205,6 @@ openerButton4.addEventListener('click', () => {
   });
 });
 
-// const sectioncard5 = document.querySelector(".project-5");
 const openerButton5 = document.querySelector('.button5');
 openerButton5.addEventListener('click', () => {
   const main = document.createElement('div');
@@ -256,8 +238,6 @@ openerButton5.addEventListener('click', () => {
     <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
        <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
     `;
-  // sectioncard5.appendChild(main);
-  // sectioncard5.appendChild(maincard);
 
   main.appendChild(maincard);
   body.appendChild(main);
@@ -269,7 +249,6 @@ openerButton5.addEventListener('click', () => {
   });
 });
 
-// const sectioncard6 = document.querySelector(".project-6");
 const openerButton6 = document.querySelector('.button6');
 openerButton6.addEventListener('click', () => {
   const main = document.createElement('div');
@@ -303,8 +282,6 @@ openerButton6.addEventListener('click', () => {
     <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
        <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
     `;
-  // sectioncard6.appendChild(main);
-  // sectioncard6.appendChild(maincard);
 
   main.appendChild(maincard);
   body.appendChild(main);

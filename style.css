@@ -246,8 +246,8 @@ body {
 /* popup mobile */
 
 .main {
-  width: 100vw;
-  height: 100%;
+  width: 375px;
+  height: 890px;
   position: fixed;
   top: 0;
   background: #c1c7d0;
@@ -259,11 +259,11 @@ body {
   flex-direction: column;
   align-content: center;
   align-items: center;
-  width: 100%;
+  width: 343px;
   background: #fff;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   z-index: 1;
-  height: 880px;
+  height: 860px;
   margin-left: 16px;
   margin-right: 16px;
   margin-top: 20px;
@@ -1062,22 +1062,29 @@ h3 {
   /* popup desktop */
 
   .main {
-    width: 100vw;
-    height: 100%;
+    width: 1440px;
+    height: 1990px;
     position: fixed;
     top: 0;
     background: #c1c7d0;
+    mix-blend-mode: multiply;
+    z-index: 1;
     margin: auto;
     overflow-y: scroll !important;
   }
 
   .maincard {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     width: 920px;
     height: 1075px;
     margin-left: 150px;
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 26px;
+    z-index: 1;
   }
 
   .popup-image {
