@@ -82,15 +82,16 @@ openerButton2.addEventListener("click", () => {
   const maincard = document.createElement("div");
   maincard.className = "maincard";
   maincard.innerHTML = `
+
   <button class="close-button2">&times;</button>
   <div>
  
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
-  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
+  <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
  <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
        <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
-    <h3 class="popup-par">${array[0].name}</h3>
+    <h2 class="popup-par">${array[0].name}</h2>
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -99,7 +100,10 @@ openerButton2.addEventListener("click", () => {
       <li class="html">${array[0].tech[4]}</li>
       <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
+    <div class ="lorem">${array[0].desc}</div>
+    <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
+       <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
+    `;
   sectioncard2.appendChild(main);
   sectioncard2.appendChild(maincard);
 
@@ -118,15 +122,16 @@ openerButton3.addEventListener("click", () => {
   const maincard = document.createElement("div");
   maincard.className = "maincard";
   maincard.innerHTML = `
+
   <button class="close-button2">&times;</button>
   <div>
  
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
-  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
+  <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
  <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
        <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
-    <h3 class="popup-par">${array[0].name}</h3>
+    <h2 class="popup-par">${array[0].name}</h2>
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -135,7 +140,10 @@ openerButton3.addEventListener("click", () => {
       <li class="html">${array[0].tech[4]}</li>
       <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
+    <div class ="lorem">${array[0].desc}</div>
+    <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
+       <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
+    `;
   sectioncard3.appendChild(main);
   sectioncard3.appendChild(maincard);
 
@@ -154,6 +162,7 @@ openerButton4.addEventListener("click", () => {
   const maincard = document.createElement("div");
   maincard.className = "maincard";
   maincard.innerHTML = `
+
   <button class="close-button2">&times;</button>
   <div>
  
@@ -162,7 +171,7 @@ openerButton4.addEventListener("click", () => {
  </div>
  <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
        <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
-    <h3 class="popup-par">${array[0].name}</h3>
+    <h2 class="popup-par">${array[0].name}</h2>
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -171,7 +180,10 @@ openerButton4.addEventListener("click", () => {
       <li class="html">${array[0].tech[4]}</li>
       <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
+    <div class ="lorem">${array[0].desc}</div>
+    <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
+       <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
+    `;
   sectioncard4.appendChild(main);
   sectioncard4.appendChild(maincard);
 
@@ -190,15 +202,16 @@ openerButton5.addEventListener("click", () => {
   const maincard = document.createElement("div");
   maincard.className = "maincard";
   maincard.innerHTML = `
+
   <button class="close-button2">&times;</button>
   <div>
  
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
-  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
+  <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
  <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
        <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
-    <h3 class="popup-par">${array[0].name}</h3>
+    <h2 class="popup-par">${array[0].name}</h2>
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -207,7 +220,10 @@ openerButton5.addEventListener("click", () => {
       <li class="html">${array[0].tech[4]}</li>
       <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
+    <div class ="lorem">${array[0].desc}</div>
+    <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
+       <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
+    `;
   sectioncard5.appendChild(main);
   sectioncard5.appendChild(maincard);
 
@@ -226,15 +242,16 @@ openerButton6.addEventListener("click", () => {
   const maincard = document.createElement("div");
   maincard.className = "maincard";
   maincard.innerHTML = `
+
   <button class="close-button2">&times;</button>
   <div>
  
   <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
-  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
+  <img  class = "popup-image2"src="${array[0].desktopImg}" alt="">
  </div>
  <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
        <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
-    <h3 class="popup-par">${array[0].name}</h3>
+    <h2 class="popup-par">${array[0].name}</h2>
     <ul class="popup-list">
       <li class="ruby">${array[0].tech[0]}</li>
       <li class="css">${array[0].tech[1]}</li>
@@ -243,7 +260,10 @@ openerButton6.addEventListener("click", () => {
       <li class="html">${array[0].tech[4]}</li>
       <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
+    <div class ="lorem">${array[0].desc}</div>
+    <div class ="frame19"><button class="mobile-first-button1" type="button" id="messagep">See source <img class="btn-img" src="${array[0].githubImg}" alt=""></button>
+       <button class="mobile-first-button2" type="button" id="messagep">See live <img class="btn-img" src="${array[0].liveImg}" alt=""></button></div>
+    `;
   sectioncard6.appendChild(main);
   sectioncard6.appendChild(maincard);
 
