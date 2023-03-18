@@ -1,6 +1,6 @@
 function closing() {
   document.getElementById("menu").style.display = "none";
-  location.reload();
+  window.location.reload();
 }
 
 const menubar = document.querySelector(".hamburger");
