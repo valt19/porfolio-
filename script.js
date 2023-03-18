@@ -82,21 +82,21 @@ openerButton2.addEventListener("click", () => {
   <button class="close-button2">&times;</button>
   <div>
  
-  <img  class = "popup-image"src="images/pop-up/Snapshoot Portfolio.png" alt="">
+  <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
+  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
  </div>
-       <div class ="frame18"> <button class="first-button1" type="button" id="messagep">See source <img src="images/pop-up/button-icons/github.png" alt=""></button>
-        <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button>
-    <h3 class="popup-par">Keeping track of hundreds of <br> components</h3></div>
+ <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+    <h3 class="popup-par">${array[0].name}</h3>
     <ul class="popup-list">
-      <li class="ruby">Codekit</li>
-      <li class="css">Github</li>
-      <li class="javascript">JavaScript</li>
-      <li class="html">Bootstrap</li>
-      <li class="html">Terminal</li>
-      <li class="html">Codepen</li>
+      <li class="ruby">${array[0].tech[0]}</li>
+      <li class="css">${array[0].tech[1]}</li>
+      <li class="javascript">${array[0].tech[2]}</li>
+      <li class="html">${array[0].tech[3]}</li>
+      <li class="html">${array[0].tech[4]}</li>
+      <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</h2></div>
-  `;
+    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
   sectioncard2.appendChild(main);
   sectioncard2.appendChild(maincard);
 
@@ -118,21 +118,21 @@ openerButton3.addEventListener("click", () => {
   <button class="close-button2">&times;</button>
   <div>
  
-  <img  class = "popup-image"src="images/pop-up/Snapshoot Portfolio.png" alt="">
+  <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
+  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
  </div>
-       <div class ="frame18"> <button class="first-button1" type="button" id="messagep">See source <img src="images/pop-up/button-icons/github.png" alt=""></button>
-        <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button>
-    <h3 class="popup-par">Keeping track of hundreds of <br> components</h3></div>
+ <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+    <h3 class="popup-par">${array[0].name}</h3>
     <ul class="popup-list">
-      <li class="ruby">Codekit</li>
-      <li class="css">Github</li>
-      <li class="javascript">JavaScript</li>
-      <li class="html">Bootstrap</li>
-      <li class="html">Terminal</li>
-      <li class="html">Codepen</li>
+      <li class="ruby">${array[0].tech[0]}</li>
+      <li class="css">${array[0].tech[1]}</li>
+      <li class="javascript">${array[0].tech[2]}</li>
+      <li class="html">${array[0].tech[3]}</li>
+      <li class="html">${array[0].tech[4]}</li>
+      <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</h2></div>
-  `;
+    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
   sectioncard3.appendChild(main);
   sectioncard3.appendChild(maincard);
 
@@ -154,21 +154,21 @@ openerButton4.addEventListener("click", () => {
   <button class="close-button2">&times;</button>
   <div>
  
-  <img  class = "popup-image"src="images/pop-up/Snapshoot Portfolio.png" alt="">
+  <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
+  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
  </div>
-       <div class ="frame18"> <button class="first-button1" type="button" id="messagep">See source <img src="images/pop-up/button-icons/github.png" alt=""></button>
-        <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button>
-    <h3 class="popup-par">Keeping track of hundreds of <br> components</h3></div>
+ <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+    <h3 class="popup-par">${array[0].name}</h3>
     <ul class="popup-list">
-      <li class="ruby">Codekit</li>
-      <li class="css">Github</li>
-      <li class="javascript">JavaScript</li>
-      <li class="html">Bootstrap</li>
-      <li class="html">Terminal</li>
-      <li class="html">Codepen</li>
+      <li class="ruby">${array[0].tech[0]}</li>
+      <li class="css">${array[0].tech[1]}</li>
+      <li class="javascript">${array[0].tech[2]}</li>
+      <li class="html">${array[0].tech[3]}</li>
+      <li class="html">${array[0].tech[4]}</li>
+      <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</h2></div>
-  `;
+    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
   sectioncard4.appendChild(main);
   sectioncard4.appendChild(maincard);
 
@@ -190,21 +190,21 @@ openerButton5.addEventListener("click", () => {
   <button class="close-button2">&times;</button>
   <div>
  
-  <img  class = "popup-image"src="images/pop-up/Snapshoot Portfolio.png" alt="">
+  <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
+  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
  </div>
-       <div class ="frame18"> <button class="first-button1" type="button" id="messagep">See source <img src="images/pop-up/button-icons/github.png" alt=""></button>
-        <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button>
-    <h3 class="popup-par">Keeping track of hundreds of <br> components</h3></div>
+ <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+    <h3 class="popup-par">${array[0].name}</h3>
     <ul class="popup-list">
-      <li class="ruby">Codekit</li>
-      <li class="css">Github</li>
-      <li class="javascript">JavaScript</li>
-      <li class="html">Bootstrap</li>
-      <li class="html">Terminal</li>
-      <li class="html">Codepen</li>
+      <li class="ruby">${array[0].tech[0]}</li>
+      <li class="css">${array[0].tech[1]}</li>
+      <li class="javascript">${array[0].tech[2]}</li>
+      <li class="html">${array[0].tech[3]}</li>
+      <li class="html">${array[0].tech[4]}</li>
+      <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</h2></div>
-  `;
+    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
   sectioncard5.appendChild(main);
   sectioncard5.appendChild(maincard);
 
@@ -226,21 +226,21 @@ openerButton6.addEventListener("click", () => {
   <button class="close-button2">&times;</button>
   <div>
  
-  <img  class = "popup-image"src="images/pop-up/Snapshoot Portfolio.png" alt="">
+  <img  class = "popup-image"src="${array[0].mobileImg}" alt="">
+  <img  class = "popup-image"src="${array[0].desktopImg}" alt="">
  </div>
-       <div class ="frame18"> <button class="first-button1" type="button" id="messagep">See source <img src="images/pop-up/button-icons/github.png" alt=""></button>
-        <button class="first-button2" type="button" id="messagep">See live <img src="images/pop-up/button-icons/Icon.png" alt=""></button></div>
-   
+ <div class ="frame18"><button class="first-button1" type="button" id="messagep">See source <img src="${array[0].githubImg}" alt=""></button>
+       <button class="first-button2" type="button" id="messagep">See live <img src="${array[0].liveImg}" alt=""></button></div>
+    <h3 class="popup-par">${array[0].name}</h3>
     <ul class="popup-list">
-      <li class="ruby">Codekit</li>
-      <li class="css">Github</li>
-      <li class="javascript">JavaScript</li>
-      <li class="html">Bootstrap</li>
-      <li class="html">Terminal</li>
-      <li class="html">Codepen</li>
+      <li class="ruby">${array[0].tech[0]}</li>
+      <li class="css">${array[0].tech[1]}</li>
+      <li class="javascript">${array[0].tech[2]}</li>
+      <li class="html">${array[0].tech[3]}</li>
+      <li class="html">${array[0].tech[4]}</li>
+      <li class="html">${array[0].tech[5]}</li>
     </ul>
-    <div class ="lorem"><h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</h2></div>
-  `;
+    <div class ="lorem"><h2>${array[0].desc}</h2></div>`;
   sectioncard6.appendChild(main);
   sectioncard6.appendChild(maincard);
 
