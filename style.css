@@ -1067,10 +1067,13 @@ h3 {
     position: fixed;
     top: 0;
     background: #c1c7d0;
-    mix-blend-mode: multiply;
+    mix-blend-mode: normal;
     z-index: 1;
     margin: auto;
     overflow-y: scroll !important;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
 
   .maincard {
@@ -1079,7 +1082,7 @@ h3 {
     align-content: center;
     align-items: center;
     width: 920px;
-    height: 1075px;
+    height: 1083px;
     margin-left: 150px;
     margin-right: 30px;
     margin-top: 20px;
