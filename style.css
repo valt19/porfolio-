@@ -246,20 +246,26 @@ body {
 /* popup mobile */
 
 .main {
-  position: fixed;
+  /* position: fixed;
   width: 2440px;
   height: 1900px;
   top: 900px;
   background: #dfe0e2;
-  mix-blend-mode: normal;
+  mix-blend-mode: normal; */
+
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background: #c1c7d0;
 
   /* margin-left: 1800px; */
-  margin-top: -1000px;
-  z-index: 1;
+  /* margin-top: -1000px;
+  z-index: 1; */
 }
 
 .maincard {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
@@ -268,11 +274,18 @@ body {
   width: 100%;
   background: #fff;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  z-index: 1;
+  z-index: 1; */
+  height: 880px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 20px;
+  margin-bottom: 26px;
+  background-color: white;
+  border-radius: 16px;
 }
 
 .popup-image {
-  width: 90%;
+  width: 100%;
   margin: 16px;
   height: 230px;
   display: block;
@@ -286,8 +299,8 @@ body {
   width: 22px;
   height: 22px;
   font-size: 22px;
-  margin-top: 34px;
-  margin-left: 241px;
+  margin-top: 22px;
+  margin-left: 441px;
   position: absolute;
 }
 
@@ -301,7 +314,7 @@ body {
 
 .popup-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
   list-style: none;
 }
@@ -370,6 +383,7 @@ body {
 .frame19 {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-around;
 }
 
 .mobile-first-button1 {
@@ -612,8 +626,7 @@ body {
 }
 
 .about-me {
-  background-image:
-    url("images/about-me/background/illustration\ 2-about-me\ mobile.svg"),
+  background-image: url("images/about-me/background/illustration\ 2-about-me\ mobile.svg"),
     url("images/about-me/background/illustration\ 1-\ about\ me-mobile.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: 70px, 70px;
@@ -1060,21 +1073,30 @@ h3 {
   /* popup desktop */
 
   .main {
-    position: fixed;
-    width: 2540px;
+    /* position: fixed;
+    width: 2640px;
     height: 1900px;
     top: 900px;
     background: #dfe0e2;
     mix-blend-mode: normal;
-    margin-left: 800px;
+    margin-left: -800px;
     margin-top: -1000px;
-    z-index: 1;
+    z-index: 1; */
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: #c1c7d0;
+    margin: auto;
   }
 
   .maincard {
     width: 920px;
     height: 1075px;
-    margin: auto;
+    margin-left: 150px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 26px;
   }
 
   .popup-image {
@@ -1293,8 +1315,7 @@ h3 {
   }
 
   .about-me {
-    background-image:
-      url("images/background-image/desktop/about/illustration-about-me-2-desktop@2x.png"),
+    background-image: url("images/background-image/desktop/about/illustration-about-me-2-desktop@2x.png"),
       url("images/background-image/desktop/about/illustration-about\ me-1-desktop@2x.png");
     background-repeat: no-repeat, no-repeat;
     background-size: 160px, 160px;
@@ -1486,8 +1507,7 @@ h3 {
   }
 
   .form {
-    background-image:
-      url("images/background-image/desktop/form/illustration-1-contact-form-desktop.svg"),
+    background-image: url("images/background-image/desktop/form/illustration-1-contact-form-desktop.svg"),
       url("images/background-image/desktop/form/illustration-2-contact-form-desktop@2x.png"),
       url("images/background-image/desktop/form/contact\ form-illustratoin-3-desktop.svg");
     background-repeat: no-repeat, no-repeat;
