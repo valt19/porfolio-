@@ -2,13 +2,15 @@
 
 body {
   overflow-x: hidden;
-  width: 115%;
+  width: 110%;
+  position: relative;
 }
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -21,7 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90px;
+  width: 100%;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -364,6 +366,8 @@ body {
   margin-left: 123px;
   grid-column: 1/13;
   padding: 8px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  width: 42%;
 }
 
 .sections {
@@ -418,6 +422,9 @@ h4 {
   padding-left: 0;
   margin-top: -6%;
   margin-bottom: -6%;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  size: 12px;
+  line-height: 16px;
 }
 
 .javascript-2 {
