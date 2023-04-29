@@ -2,7 +2,7 @@
 
 body {
   overflow-x: hidden;
-  width: 100%;
+  width: 115%;
 }
 
 * {
@@ -102,6 +102,7 @@ body {
   flex-grow: 0;
   margin-top: 10%;
   margin-left: 12%;
+  margin-bottom: 7%;
 }
 
 .icons {
@@ -111,7 +112,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 40%;
-  margin-top: 15%;
+  margin-top: 19%;
   margin-left: 30%;
 }
 
@@ -168,12 +169,6 @@ body {
   text-align: center;
   margin-left: 47%;
   margin-top: 20px;
-
-  /* border-bottom: 4px  solid #36b37e;
-  width: 33%;
-  margin-left: 45%;
-  margin-top: 3%;
-  padding-bottom: 8%; */
 }
 
 .hey-tex {
@@ -217,15 +212,6 @@ body {
   margin-left: 30px;
 }
 
-/* .project-section-1 {
-  display: grid;
-  grid-template-columns: 327px;
-  grid-template-rows: repeat(5,474);
-  row-gap: 24px;
-  justify-content: center;
-  padding-top: 62px;
-} */
-
 .card {
   width: 327px;
   height: 100vh;
@@ -238,6 +224,8 @@ body {
 }
 
 .title-1 {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
   text-align: center;
   font-size: 24px;
   font-weight: 600;
@@ -349,13 +337,14 @@ body {
   line-height: 52px;
   align-items: center;
   text-align: center;
+  margin-left: -6%;
 }
 
 .par {
   grid-column: 1/13;
   height: 189px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 29px;
+  padding-right: 29px;
   width: 100%;
 }
 
@@ -374,6 +363,7 @@ body {
 .resume {
   margin-left: 123px;
   grid-column: 1/13;
+  padding: 8px;
 }
 
 .sections {
@@ -381,7 +371,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 327px;
-  height: 352px;
+  height: 320px;
   background: #ebf0ee;
   border: 1px solid #c1c7d0;
   box-sizing: border-box;
@@ -397,7 +387,7 @@ h4 {
   text-align: center;
   margin-right: 35px;
   margin-left: 30px;
-  margin-bottom: 8%;
+  margin-bottom: 10%;
   margin-top: 60px;
   color: #344563;
   flex: none;
@@ -410,7 +400,7 @@ h4 {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  margin-bottom: 0;
+  margin-bottom: -20%;
   margin-right: 10px;
 }
 
@@ -426,6 +416,8 @@ h4 {
   gap: 10px;
   color: #36b37e;
   padding-left: 0;
+  margin-top: -6%;
+  margin-bottom: -6%;
 }
 
 .javascript-2 {
