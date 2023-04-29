@@ -1,12 +1,11 @@
 <a name="readme-top"></a>
 
-
-<div align="center">
-
-
-  <h3><b>Portfolio</b></h3>
+<div align ="center">
+  <h3><b>PORTFOLIO</b></h3>
 
 </div>
+
+
 
 # 📗 Table of Contents
 
@@ -27,54 +26,52 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
+# 📖 [Portfolio-project] <a name="Portfolio-project"></a>
 
-# 📖 portfolio<a name="portfolio"></a>
+Portfolio Project is mandatory to every student at Microverse, and it is one of the product that helps a student to job market. It has the followinf files: a README file, html, css, gitignore, linters
 
-> This is my second microverse project under this program.
-
-**portfolio** is a project where i test my web programming skills.
+**[Portfolio-project]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
-
->VScode
-
+**Tech stack**
+**client:**
+  HTML and CSS
 ### Tech Stack <a name="tech-stack"></a>
-
-> This is a mobile project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.org/">index.html</a>HTML</li>
-  </ul>
-
-  <ul>
-    <li><a href="https://css.org/">style.css</a>CSS</li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
-<!-- Features -->
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-> The key features are:
-
-- **create responsive mobile and desktop portfolio**
-- **Visualize the figma design**
-- **implement linters and workflows**
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://valt19.github.io/porfolio-/)
+- **[user_friendy]**
+- **[fast]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -84,115 +81,84 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+gem install rails
+
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder and run it using a browser. Usage To run this project you need a code editor and browser
+### Install
 
-```sh
-  cd my-folder
-  git clone 
-```
+Install this project with: program.exe file
+
+
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the following command: program.exe file
 
-```sh
-  vscode server
-```
+
 
 ### Run tests
 
-To run tests, run the following command:
-
-Example command:
-
-```sh
-configure linter.yml file
-open on your browser
-```
+To run tests, run the following command: program.exe
 
 ### Deployment
 
-https://valt19.github.io/porfolio-/
+You can deploy this project using: Google Chrome
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
+Trevor:
+-- GitHub: https://github.com/valt19
+- Twitter: https://twitter.com/OdekeTrevor
+- LinkedIn: https://www.linkedin.com/in/trevor-odeke-56876a254/
 
 
-👤 **Trevor**
-- GitHub: @valt19
-- Twitter: @OdekeTrevor
-- LinkedIn: @TrevorOdeke
-
-👤 **Mercy Mugambi**
-
-- GitHub: @mercymugambi(https://github.com/mercymugambi)
-- Twitter: @mercymugambi(https://twitter.com/MercyMugambi15)
-- LinkedIn: @mercymugambi(https://www.linkedin.com/in/mercymugambi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Below are future features to be added.
 
-- **more content**
-- **link projects**
-- **Add JavaScript Functionality**
+- [ ] **[client-login]**
+**[search-box]**
+**[Background-videos]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
 
 feel free to add any concerns you have with the project
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, follow me on my social handles and contact me back.
- 
+> Write a message to encourage readers to support your project
+
+If you like this project please follow my github account : @valt19
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse community, my coding partners(mercy and Rose mutai) for their dedicated time to encourage me achieve the best for this project. 
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank Agaba JohnMark for helping finish this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Question_1: Have you implemented linters to this project?**
-
-  - yes
-
-- **Question_2: Does plan to use other languages?**
-
-  - Answer_2: Yes, planning to implement using javascript among other.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="MIT"> MIT</a>
 
-This project is [MIT](./MIT.md) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [ MIT ]( ./MIT.md ) licensed.
