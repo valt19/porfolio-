@@ -680,6 +680,7 @@ h4 {
 .form-bttn:active {
   background-color: #017243;
 }
+
 .iconns {
   list-style: none;
   padding: 2px;
@@ -689,8 +690,4 @@ h4 {
   width: 56%;
   margin-top: -15%;
   margin-left: 15%;
-}
-
-.icon {
-  justify-content: space-between;
 }
