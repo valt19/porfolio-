@@ -114,6 +114,7 @@ Trevor:
 - GitHub: @valt19
 - Twitter: @OdekeTrevor
 - LinkedIn: @TrevorOdeke
+
 Eric:
  - GitHub: @ericma1
  - linkedin: in/eric-mawudeku-55b74883
