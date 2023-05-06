@@ -69,7 +69,7 @@ Portfolio Project is mandatory to every student at Microverse, and it is one of 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live feed coming]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,8 +114,9 @@ Trevor:
 - GitHub: @valt19
 - Twitter: @OdekeTrevor
 - LinkedIn: @TrevorOdeke
-
-
+Eric:
+ - GitHub: @ericma1
+ - linkedin: in/eric-mawudeku-55b74883
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
