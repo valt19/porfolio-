@@ -111,13 +111,13 @@ You can deploy this project using: Google Chrome
 
 ## 👥 Author <a name="authors"></a>
 Trevor:
-- GitHub: @valt19
-- Twitter: @OdekeTrevor
-- LinkedIn: @TrevorOdeke
+- GitHub: [valt19](https://github.com/valt19)
+- Twitter: [OdekeTrevor](https://twitter.com/OdekeTrevor)
+- LinkedIn: [TrevorOdeke](https://www.linkedin.com/in/trevor-odeke-56876a254/)
 
 Eric:
- - GitHub: @ericma1
- - linkedin: in/eric-mawudeku-55b74883
+ - GitHub: https://github.com/erickma1
+ - linkedin: [eric-mawudeku](in/eric-mawudeku-55b74883)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
