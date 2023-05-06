@@ -571,7 +571,7 @@ h4 {
 .form {
   background-image: url('./images/form/illustration-contact-form.svg');
   background-repeat: no-repeat;
-  background-size: 40px;
+  background-size: 65px;
   background-position: right bottom;
   padding: 0;
   margin-top: -850px;
@@ -605,7 +605,7 @@ h4 {
 }
 
 .input {
-  width: 326px;
+  width: 80%;
   height: 40px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -616,7 +616,7 @@ h4 {
 }
 
 .msg {
-  width: 326px;
+  width: 80%;
   height: 114px;
   font-weight: 500;
   border: 1px solid#60C095;
@@ -630,12 +630,14 @@ h4 {
 .email-address {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 300;
   line-height: 32px;
   text-align: center;
   color: #42526e;
   margin-bottom: 100px;
+  margin-left: -15%;
+  margin-top: 5%;
 }
 
 .form-bttn {
@@ -677,4 +679,18 @@ h4 {
 
 .form-bttn:active {
   background-color: #017243;
+}
+.iconns {
+  list-style: none;
+  padding: 2px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 56%;
+  margin-top: -15%;
+  margin-left: 15%;
+}
+
+.icon {
+  justify-content: space-between;
 }
