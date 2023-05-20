@@ -329,7 +329,7 @@ function displayInfo() {
   }
 }
 
-// displayInfo();
+displayInfo();
 // myFunction();
 // myFunction2();
 // project();
