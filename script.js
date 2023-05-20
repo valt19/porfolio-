@@ -329,9 +329,9 @@ function displayInfo() {
   }
 }
 
-displayInfo();
-myFunction();
-myFunction2();
-project();
-closePopup();
-popup();
+// displayInfo();
+// myFunction();
+// myFunction2();
+// project();
+// closePopup();
+// popup();
