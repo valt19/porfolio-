@@ -1085,18 +1085,19 @@ h3 {
     flex-direction: column;
     align-content: center;
     align-items: center;
+
     /* width: 80%;
     height: 100%; */
 
     height: 95%;
     width: 920px;
     border-radius: 8px;
-
     margin-left: 120px;
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 26px;
     z-index: 1;
+
     /* overflow-y: scroll !important; */
   }
 
