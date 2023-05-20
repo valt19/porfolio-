@@ -304,3 +304,34 @@ contactForm.addEventListener('submit', (event) => {
     contactError.style.position = 'inherit';
   }
 });
+// Preserve data in the browser
+
+const form = document.getElementById('form-id');
+const nameInput = document.getElementById('name');
+const message = document.getElementById('message');
+const emailInput = document.getElementById('email');
+
+form.addEventListener('input', () => {
+  const formInfo = {
+    name: nameInput.value,
+    email: emailInput.value,
+    message: message.value,
+  };
+  localStorage.setItem('formDetails', JSON.stringify(formInfo));
+});
+
+function displayInfo() {
+  const info = JSON.parse(localStorage.getItem('formDetails'));
+  if (info) {
+    nameInput.value = info.name;
+    emailInput.value = info.email;
+    message.value = info.message;
+  }
+}
+
+displayInfo();
+myFunction();
+myFunction2();
+project();
+closePopup();
+popup();
