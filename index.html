@@ -4,36 +4,265 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title> Web developers Portfolio  </title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
   
+  
     <header class="header">
-      <nav class="menu-bar">
-        <img src="images/Normal Button/Enabled.png" alt=" menu-bar">
-      </nav>
+      <div class="menu-bar">
+        <a href="welcome" class="head">Welcome</a>
+        <nav class="menu-bar2">
+          <ul class="nav-menu" id="menu">
+            <a href="" onclick="" class="close-button">&times;</a>
+            <li ><a onclick="closeMenu()" href="#portfolio">Portfolio</a></li>
+            <li><a onclick="closeMenu()" href="#about">About</a></li>
+            <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          </nav>
+      </div>
+        <nav class="menu-bar-desktop">
+          <ul class="nav-menu-desktop">
+            <!-- <a href="" onclick="" class="close-button">&times;</a> -->
+            <li ><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        
     </header>
+    
     <section class="head-section">
     <div class="hey-there">
-      <h2 class="hey-text">Hey there.<br> I’m Trevor.<br>
-      <span class="hey-text2"> I’m a software <br> developer</span></h2>
+<h1 class="hey-text">Hey there. I’m Mariane <br>
+  <span class="hey-text2"> I’m a software developer</span></h1>
     </div>
     <div class="text1">
       <p class="text">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
     </div>
+      <ul class="iconns"> 
+        <li>
+          <a href="" class="icon"> <img src="images/icons/twitter.svg" alt="twitter"></a>  
+        </li>  
+         <li>
+          <a href="" class="icon"> <img src="images/icons/i.png" alt="linked in ">
+            <img src="images/icons/n.png" alt=" linked in">
+           </a> 
+         </li>
+        <li>
+          <a href="" class="icon">  <img  class="medium" src="images/icons/medium@2x.png" alt=" medium"></a>
+        </li>
+        <li>
+          <a href="" class="icon"><img src="images/icons/github.svg" alt=" github"></a>
+        </li>
+        <li>
+          <a href="" class="icon"><img src="images/icons/angellist.svg" alt=" angellist"></a>
+        </li>
+         
+      </ul>
+      <div class="scroll">
+        <img src="images/Normal Button/Disabled.png" alt=" scroll-button">
+      </div>
+  </section>
+  <section class="all-works" id="portfolio">
+  
+      <div class="recent-works"><h2 class="hey-text">My Recent Works</h2>
+      </div>
+<div class="green"></div>
+      <div class="project-cards">
+        <!--Project section-1 -->
+        
+        <div class="project-section-1 project1">
+          <div class="card"></div>
+          <div class="project-work ">
+            <h3 class="title-1">Multi-Post Stories<br>Gain+Glory</h3>
+            <ul class="list">
+              <li class="ruby">Ruby on rails</li>
+              <li class="css">css</li>
+              <li class="javascript">JavaScript</li>
+              <li class="html">html</li>
+            </ul>
+            <button class="button button1" type="button">See Project</button>
+          </div>
+        </div>
+        
+        <!--Project section-2-->
+        
+        <div class="project-section-1 project-2">
+          <div class="card"></div>
+        
+          <div class="project-work">
+            <h3 class="title-1">Multi-Post Stories<br>Gain+Glory</h3>
+            <ul class="list">
+              <li class="ruby">Ruby on rails</li>
+              <li class="css">css</li>
+              <li class="javascript">JavaScript</li>
+              <li class="html">html</li>
+            </ul>
+            <button class="button  button2"  type="button">See Project</button>
+          </div>
+        </div>
+        <!--Project section-3-->
+        
+        <div class="project-section-1 project-3">
+          <div class="card"></div>
+        
+          <div class="project-work">
+            <h3 class="title-1">Multi-Post Stories<br>Gain+Glory</h3>
+            <ul class="list">
+              <li class="ruby">Ruby on rails</li>
+              <li class="css">css</li>
+              <li class="javascript">JavaScript</li>
+              <li class="html">html</li>
+            </ul>
+            <button class="button  button3" type="button">See Project</button>
+          </div>
+        </div>
+        <!--Project section-4-->
+        
+        <div class="project-section-1 project-4">
+          <div class="card"></div>
+        
+          <div class="project-work">
+            <h3 class="title-1">Multi-Post Stories<br>Gain+Glory</h3>
+            <ul class="list">
+              <li class="ruby">Ruby on rails</li>
+              <li class="css">css</li>
+              <li class="javascript">JavaScript</li>
+              <li class="html">html</li>
+            </ul>
+            <button class="button  button4" type="button">See Project</button>
+          </div>
+        </div>
+        <!--Project section-5-->
+        
+        <div class="project-section-1 project-5">
+          <div class="card"></div>
+        
+          <div class="project-work">
+            <h3 class="title-1">Multi-Post Stories<br>Gain+Glory</h3>
+            <ul class="list">
+              <li class="ruby">Ruby on rails</li>
+              <li class="css">css</li>
+              <li class="javascript">JavaScript</li>
+              <li class="html">html</li>
+            </ul>
+            <button class="button  button5" type="button">See Project</button>
+          </div>
+        </div>
+        <!--Project section-6-->
+        
+        <div class="project-section-1 project-6">
+          <div class="card"></div>
+        
+          <div class="project-work">
+            <h3 class="title-1">Multi-Post Stories<br>Gain+Glory</h3>
+            <ul class="list">
+              <li class="ruby">Ruby on rails</li>
+              <li class="css">css</li>
+              <li class="javascript">JavaScript</li>
+              <li class="html">html</li>
+            </ul>
+            <button class="button  button6" type="button">See Project</button>
+          </div>
+        </div>
+      </div>
+       
+    </section>
+   <!--About me section-->
+​
+   <section  class="about-me" id="about">
+    <div class="gridd">
+​
+      <div class="about-text"><h2 class="hey-text">About me</h2></div>
+​
+       <div class="par"><p class="par2">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p></div>
+​
+       <a href="#about-me" class="button resume">Get My Resume</a>
+  
+      <div class="sections-cards">
+        <!--section-1-->
+        <div class="sections ">
+          <div class="language-icon">
+            <img src="images/about-me/icon-languages.svg" alt="Language icone">
+          </div>
+          <h3>Languages</h3>
+        
+          <ul class="frameworks">
+            <li class="javascript-2">JavaScript</li>
+            <li class="ruby-2">Ruby </li>
+            <li class="html-2">Html</li>
+            <li class="css-2">CSS</li>
+          </ul>
+        </div>
+        
+        <!-- section-2-->
+        <div class="sections ">
+          <div class="language-icon"><img src="images/about-me/icon-frameworks.svg" alt="Rectangle icones"></div>
+          <h3>Frameworks</h3>
+          <ul class="frameworks">
+            <li class="bootstrap">Bootstrap</li>
+            <li class="ruby-3">Ruby on rails</li>
+            <li class="rspec">RSpec</li>
+            <li class="capybara">Capybara</li>
+            <li class="selenium">Selenium</li>
+          </ul>
+        </div>
+        <!--section-3-->
+        <div class="sections ">
+          <div class="language-icon"><img src="images/about-me/icon-skills.svg" alt="lightning icones"></div>
+          <h3>Skills</h3>
+          <ul class="frameworks">
+            <li class="codekit">Codekit</li>
+            <li class="github-2">Github</li>
+            <li class="codepen">Codepen</li>
+            <li class="gitlab">Gitlab</li>
+            <li class="terminal">Terminal</li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </section>
+    <!--Form section-->
+    <section class="form" id="contact">
+      <div class="info">
+
+       <div class="form-text"><h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3></div>
+       <form id="form-id"  action="https://formspree.io/f/xeqwozwl" method="post" >
+       
+         <input id="name" type="text" class="input"  name="user_name" placeholder="Full name" required maxlength="30">
+
+         <input id="email"  type="email" class="input" name="user_email" placeholder="Email address" required>
+         <div id="errormessage"></div>
+
+         <textarea id="message" class="msg" name="user_message" placeholder="Enter text here" required maxlength="500"></textarea>
+
+         <button type="submit" class="form-bttn" id="btnid">Get In Touch</button>
+         
+         
+       </form>
+      </div>
+       <footer class="footer">
+      
       <ul class="icons"> 
         <li>
           <a href="" class="icon"> <img src="images/icons/twitter.svg" alt="twitter"></a>  
         </li>  
          <li>
-          <a href="" class="icon"> <img src="images/icons/i.png" alt="linkedin">
-            <img src="images/icons/n.png" alt="linkedin">
+          <a href="" class="icon"> <img src="images/icons/i.png" alt="linked in">
+            <img src="images/icons/n.png" alt="linked in">
            </a> 
          </li>
         <li>
-          <a href="" class="icon">  <img  class="medium" src="images/icons/medium@2x.png" alt="medium"></a>
+          <a href="" class="icon">  <img  class="medium" src="images/icons/medium@2x.png" alt=" medium"></a>
         </li>
         <li>
           <a href="" class="icon"><img src="images/icons/github.svg" alt="github"></a>
@@ -43,169 +272,8 @@
         </li>
          
       </ul>
-      <div class="scroll">
-        <img src="images/Normal Button/Disabled.png" alt="scroll">
-      </div>
-  </section>
-  <section  class="work-section">
-    <div class="rece ">
-
-      <div class="recent-works"><h3 class="hey-tex">My Recent Works</h3>
-      </div>
-        <div class="green"></div>
-
-        <!--Project section-1 -->
-
-       <div class="project-section-1 project-1">
-         <div class="card"></div>
-
-         <div class="project-work">
-           <h4 class="title-1">Multi-Post Stories<br>Gain+Glory</h4>
-           <ul class="list">
-             <li class="ruby">Ruby on rails</li>
-             <li class="css">css</li>
-             <li class="javascript">JavaScript</li>
-             <li class="html">html</li>
-          </ul>
-          <button class="button active-btn" type="button">See Project</button>
-         </div>
-       </div>
-      
-          
-  
-          <!--Project section-2-->
-  
-         <div class="project-section-1 project-1">
-           <div class="card"></div>
-  
-           <div class="project-work">
-             <h4 class="title-1">Multi-Post Stories<br>Gain+Glory</h4>
-             <ul class="list">
-               <li class="ruby">Ruby on rails</li>
-               <li class="css">css</li>
-               <li class="javascript">JavaScript</li>
-               <li class="html">html</li>
-            </ul>
-            <button class="button active-btn" type="button">See Project</button>
-           </div>
-         </div>
-          <!--Project section-3-->
-  
-          <div class="project-section-1 project-1">
-            <div class="card"></div>
-   
-            <div class="project-work">
-              <h4 class="title-1">Multi-Post Stories<br>Gain+Glory</h4>
-              <ul class="list">
-                <li class="ruby">Ruby on rails</li>
-                <li class="css">css</li>
-                <li class="javascript">JavaScript</li>
-                <li class="html">html</li>
-             </ul>
-             <button class="button active-btn" type="button">See Project</button>
-            </div>
-          </div>
-           <!--Project section-4-->
-  
-         <div class="project-section-1 project-1">
-          <div class="card"></div>
- 
-          <div class="project-work">
-            <h4 class="title-1">Multi-Post Stories<br>Gain+Glory</h4>
-            <ul class="list">
-              <li class="ruby">Ruby on rails</li>
-              <li class="css">css</li>
-              <li class="javascript">JavaScript</li>
-              <li class="html">html</li>
-           </ul>
-           <button class="button active-btn" type="button">See Project</button>
-          </div>
-        </div>
-         <!--Project section-5-->
-  
-         <div class="project-section-1 project-1">
-          <div class="card"></div>
- 
-          <div class="project-work">
-            <h4 class="title-1">Multi-Post Stories<br>Gain+Glory</h4>
-            <ul class="list">
-              <li class="ruby">Ruby on rails</li>
-              <li class="css">css</li>
-              <li class="javascript">JavaScript</li>
-              <li class="html">html</li>
-           </ul>
-           <button class="button active-btn" type="button">See Project</button>
-          </div>
-        </div>
-        
-         <!--Project section-6-->
-  
-         <div class="project-section-1 project-1">
-          <div class="card"></div>
- 
-          <div class="project-work">
-            <h4 class="title-1">Multi-Post Stories<br>Gain+Glory</h4>
-            <ul class="list">
-              <li class="ruby">Ruby on rails</li>
-              <li class="css">css</li>
-              <li class="javascript">JavaScript</li>
-              <li class="html">html</li>
-           </ul>
-           <button class="button active-btn" type="button">See Project</button>
-          </div>
-        </div>
-  </section>
-   <!--About me section-->
-
-   <section  class="about-me">
-    <div class="grid">
-
-      <div class="about-text"><h3 class="hey-tex">About me</h3></div>
-
-       <div class="par"><p class="par2">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p></div>
-
-       <a href="#about-me" class="button resume">Get My Resume</a>
-
-  <!--section-1-->
-
-       <div class="sections ">
-          <div class="language-icon"><img src="images/about-me/icon-languages.svg" alt="Language icone"></div>
-          <h4>Languages</h4>
-          
-          <ul class="frameworks">
-            <li class="javascript-2">JavaScript</li>
-            <li class="ruby-2">Ruby </li>
-            <li class="html-2">Html</li>
-            <li class="css-2">CSS</li>
-       </ul>
-       </div>
-
-  <!-- section-2-->
-  <div class="sections ">
-     <div class="language-icon"><img src="images/about-me/icon-frameworks.svg" alt="Rectangle icones"></div>
-     <h4>Frameworks</h4>
-     <ul class="frameworks">
-       <li class="bootstrap">Bootstrap</li>
-       <li class="ruby-3">Ruby on rails</li>
-       <li class="rspec">RSpec</li>
-       <li class="capybara">Capybara</li>
-       <li class="selenium">Selenium</li>
-    </ul>
-  </div>
-  <!--section-3-->
-  <div class="sections ">
-   <div class="language-icon"><img src="images/about-me/icon-skills.svg" alt="lightning icones"></div>
-   <h4>Skills</h4>
-   <ul class="frameworks">
-     <li class="codekit">Codekit</li>
-     <li class="github-2">Github</li>
-     <li class="codepen">Codepen</li>
-     <li class="gitlab">Gitlab</li>
-     <li class="terminal">Terminal</li>
-   </ul>
-   </div>
-
-  </div>
-  </section>
+      <div class="email-"><p class="email-address">odeke.trevor@gmail.com</p></div>
+       </footer>
+       <script src="script.js"></script>
 </body>
 </html>
